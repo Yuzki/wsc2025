@@ -117,7 +117,7 @@
             width: 100%;
             background: white;
             border-radius: 12px;
-            overflow: hidden;
+            overflow: visible;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
         }
 
@@ -131,7 +131,7 @@
             width: 140px;
             position: sticky;
             left: 0;
-            z-index: 10;
+            z-index: 100;
         }
 
         .room-header {
@@ -156,7 +156,8 @@
             width: 140px;
             position: sticky;
             left: 0;
-            z-index: 5;
+            z-index: 99;
+            /* ←ここも上げる */
         }
 
         .session-cell {
@@ -313,8 +314,8 @@
                 <div class="control-group">
                     <label for="dateFilter">📅 Select Date</label>
                     <select id="dateFilter">
-                        <option value="27">June 27 (Friday) - Main Sessions</option>
                         <option value="26">June 26 (Thursday) - Inauguration</option>
+                        <option value="27">June 27 (Friday) - Main Sessions</option>
                         <option value="28">June 28 (Saturday) - Special Panels</option>
                         <option value="29">June 29 (Sunday) - Special Lectures</option>
                         <option value="30">June 30 (Monday) - Valedictory</option>
@@ -356,12 +357,12 @@
         fetch('/wsc2025-program-viewer/data/all.json')
             .then(response => response.json())
             .then(data => {
-            programData = data;
-            renderTimetable();
-            updateStats();
+                programData = data;
+                renderTimetable();
+                updateStats();
             })
             .catch(() => {
-            document.getElementById('timetableContainer').innerHTML = `
+                document.getElementById('timetableContainer').innerHTML = `
                 <div class="no-data">
                 <h3>⚠️ Failed to load data from data/all.json</h3>
                 <p>Please check the file and try again.</p>
