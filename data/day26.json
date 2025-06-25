@@ -1,0 +1,76 @@
+{
+  "26": {
+    "14:00-14:30": [
+      {
+        "room": "Nepal Academy Hall, Kamaladi, Kathmandu",
+        "title": "Welcome Tea",
+        "theme": "Opening Reception",
+        "chairperson": "",
+        "presentations": [
+          {
+            "speaker": "Conference Organizers",
+            "title": "Welcome Tea Reception"
+          }
+        ]
+      }
+    ],
+    "14:30-17:30": [
+      {
+        "room": "Nepal Academy Hall, Kamaladi, Kathmandu",
+        "title": "Inauguration Ceremony",
+        "theme": "Opening Ceremony",
+        "chairperson": "",
+        "presentations": [
+          {
+            "speaker": "Conference Officials",
+            "title": "Inauguration of the 19th World Sanskrit Conference 2025"
+          }
+        ]
+      }
+    ],
+    "17:30-19:30": [
+      {
+        "room": "Nepal Academy Hall, Kamaladi, Kathmandu",
+        "title": "Cultural Programme",
+        "theme": "Cultural Presentations",
+        "chairperson": "",
+        "presentations": [
+          {
+            "speaker": "Traditional Performers",
+            "title": "Maṅgalācaraṇa Performance"
+          },
+          {
+            "speaker": "Traditional Performers",
+            "title": "Dakshinottaram"
+          },
+          {
+            "speaker": "Vid. Rohini Prabhath and Vid. Medhavini",
+            "title": "A Confluence of Kathak and Bharatanrityam: A Duet Presentation by Aatmalaya Academy, Bangalore"
+          },
+          {
+            "speaker": "Dr. Padmaja Venkatesh Suresh and Team",
+            "title": "Thematic Bharatanatyam Dance Performance 'Shivaya Namaha' - Based on Works of Sri Adi Shankara: Slokas from Various Strotras"
+          },
+          {
+            "speaker": "Priyamvada, Varanasi",
+            "title": "Solo Performance"
+          }
+        ]
+      }
+    ],
+    "19:15-onwards": [
+      {
+        "room": "Nepal Academy Hall, Kamaladi, Kathmandu",
+        "title": "Welcome Dinner",
+        "theme": "Opening Dinner",
+        "chairperson": "",
+        "presentations": [
+          {
+            "speaker": "Conference Organizers",
+            "title": "Welcome Dinner for Conference Participants"
+          }
+        ]
+      }
+    ]
+  }
+}
