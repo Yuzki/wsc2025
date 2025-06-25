@@ -353,7 +353,7 @@
     <script>
         // Complete program data
         let programData = {};
-        fetch('https://yuzki.github.io/wsc2025-program-viewer/data/all.json')
+        fetch('/wsc2025-program-viewer/data/all.json')
             .then(response => response.json())
             .then(data => {
             programData = data;
