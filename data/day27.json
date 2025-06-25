@@ -1,0 +1,1992 @@
+{
+    "27": {
+        "08:30-10:00": [
+            {
+                "room": "Buddha Hall",
+                "title": "Keynote Speeches",
+                "theme": "Opening Keynotes",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "Prof. Mei Yang",
+                        "title": "Queli Academy, China"
+                    },
+                    {
+                        "speaker": "Prof. Sthaneshwar Timalsina",
+                        "title": "San Diego State University, USA"
+                    },
+                    {
+                        "speaker": "Prof. McComas Taylor",
+                        "title": "Australian National University, Australia"
+                    },
+                    {
+                        "speaker": "Prof. Madhav Prasad Pokhrel",
+                        "title": "Tribhuvan University, Nepal"
+                    }
+                ]
+            }
+        ],
+        "10:00-11:30": [
+            {
+                "room": "Room 01",
+                "title": "Special Panel on Atharvaveda (Session 1)",
+                "theme": "Atharvaveda Studies",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "Kristen de Joseph",
+                        "title": "The Poetic Construction of Authority in the Atharvavedic Rohita Hymns"
+                    },
+                    {
+                        "speaker": "Carmen Spiers",
+                        "title": "Ritual and Dharma in Atharvavedic Hymns"
+                    },
+                    {
+                        "speaker": "Alessandro Giudice",
+                        "title": "Trial by fire in the Śaunaka Atharvaveda-Saṃhitā (AVŚ II, 12)? A cross-analysis with late Vedic and Dharmaśāstric sources"
+                    },
+                    {
+                        "speaker": "Robert Leach",
+                        "title": "What's Love Got to Do with it? Some Thoughts on Gāndharva Marriage"
+                    }
+                ]
+            },
+            {
+                "room": "Room 02",
+                "title": "Philosophy and Ontology",
+                "theme": "दर्शनानन, तत्त्वशास्त्रञ्च",
+                "chairperson": "Prof. Satyam Kumari",
+                "presentations": [
+                    {
+                        "speaker": "Nachiketa Sanjaykumar Brahmbhatt",
+                        "title": "अद्वैतवेदान्तरीत्या चैतन्यस्त्य स्त्वप्रकाशत्वलक्षणमीमांसा"
+                    },
+                    {
+                        "speaker": "Gaurapriya Dash",
+                        "title": "अचिन्त्यभेदाभेददर्शने जैवानुशीलनम्"
+                    },
+                    {
+                        "speaker": "Gour Prasad Panda",
+                        "title": "औपनिषदमभयशिक्षणम् - एकां सामाजिकां मनोवैज्ञानिकां दार्शनिकां चाध्ययनम्"
+                    },
+                    {
+                        "speaker": "Kallanikadu Sankaran Namboodiri Maheswaran",
+                        "title": "ब्रह्मसूत्राणाां प्रामाण्यनिर्णयप्रकारः"
+                    },
+                    {
+                        "speaker": "Ashvinee Kumar",
+                        "title": "गूढार्थतत्त्वालोके प्रमाणविचारः"
+                    }
+                ]
+            },
+            {
+                "room": "Room 03",
+                "title": "Philosophy and Ontology",
+                "theme": "दर्शनानन, तत्त्वशास्त्रञ्च",
+                "chairperson": "Prof. Kamal Kishore Mishra",
+                "presentations": [
+                    {
+                        "speaker": "Shashank Shivaram Bhat",
+                        "title": "Comparative Study Of Categories Described By Western Philosopher Aristotle And Vaisheshika Shastra"
+                    },
+                    {
+                        "speaker": "Bipin Kumar Jha",
+                        "title": "A Comparison Of The Bhagavadgītā And Aśvaghoṣa's Buddhacaritam's Ethics: Is It Contradictory Or Complementary?"
+                    },
+                    {
+                        "speaker": "Chitresh Soni",
+                        "title": "The Refutation Of Nature Of Means Of Valid Knowledge In Buddhist Epistemology By Nyaya Philosophy: With Special Reference To Nyayamanjari Of Jayanta"
+                    },
+                    {
+                        "speaker": "Devalina Saikia",
+                        "title": "The Knowledge Of Similarities And Dissimilarities Among Categories: Study Of The View Of Kaṇāda Tarkavāgīśa"
+                    },
+                    {
+                        "speaker": "Shakuntala Gawde",
+                        "title": "Decoding Terms 'Vidyā' And 'Avidyā' In Iśāvāsyopaniṣad"
+                    }
+                ]
+            },
+            {
+                "room": "Room 04",
+                "title": "Vyakarana",
+                "theme": "व्याकरणम्",
+                "chairperson": "Prof. Brajbhushan Ojha",
+                "presentations": [
+                    {
+                        "speaker": "Mounika Bolla",
+                        "title": "शब्दशास्त्रीयलिङ्गविचारः"
+                    },
+                    {
+                        "speaker": "Shreenathdhar Dwivedi",
+                        "title": "महाभाष्ये वर्णितानाां वर्णदोषाणाां प्रातिशाख्यदृष्ट्या समीक्षणम्"
+                    },
+                    {
+                        "speaker": "Vaithi Subramanian N",
+                        "title": "शाकटायनव्याकरणे तद्धितयसमासय च उपयुज्यमानानि सामान्यसूत्राणि एवां शाकटायनव्याकरणात्सिद्धाःकेचन विलक्षणप्रयोगाश्च"
+                    },
+                    {
+                        "speaker": "Kartik Bhagwat",
+                        "title": "व्याकरणमहाभाष्यस्य प्रसङ्गैः समाजसमीक्षा आतो धातोरिति सूत्रार्थविमर्शः"
+                    },
+                    {
+                        "speaker": "Malhar Kulkarni",
+                        "title": "Influence Of The Kāśikāvṛtti On The Text Of The Aṣtādhyāyī: What Do The Manuscripts Of The Kāśikāvṛtti Say?"
+                    }
+                ]
+            },
+            {
+                "room": "Room 05",
+                "title": "Vyakarana",
+                "theme": "व्याकरणम्",
+                "chairperson": "Prof. Brajbhusahan Ojha",
+                "presentations": [
+                    {
+                        "speaker": "Manji Bhadra",
+                        "title": "Meaning Of Technical Terms: Through The Lens Of Sanskrit Theoreticians"
+                    },
+                    {
+                        "speaker": "Sowmya Krishnapur",
+                        "title": "Was Kartrabhiprāye Kriyāphale (Ps 1.3.72) Practically Observed In Classical Sanskrit Texts? A Textual Exploration"
+                    },
+                    {
+                        "speaker": "Umamaheshwara N",
+                        "title": "भाषाभूषणां वाचोयुक्तः"
+                    },
+                    {
+                        "speaker": "Walvekar Manish Rajan",
+                        "title": "Textual Variants And Transcription Challenges In Pāṇini's Aṣtādhyāyī: A Critical Exploration Of A. 1.1.17-18"
+                    },
+                    {
+                        "speaker": "Shikha Chandravanshi",
+                        "title": "ढुर्ण्ढकायाां स्त्रीप्रत्यय विमर्शः"
+                    },
+                    {
+                        "speaker": "Shruti Kanitkar",
+                        "title": "The Śābdabodha Of Cognitive Maze"
+                    }
+                ]
+            },
+            {
+                "room": "Room 06",
+                "title": "Sanskrit Pedagogy",
+                "theme": "संस्कृतशिक्षाशास्त्रम्",
+                "chairperson": "Prof. Y. S. Ramesh",
+                "presentations": [
+                    {
+                        "speaker": "Devdatta Vishwanath Sarode",
+                        "title": "संस्कृतशास्त्राणाां शिक्षणाधिगमसमस्यानिवारणाय तन्त्रयुक्तीनामुपादेयता"
+                    },
+                    {
+                        "speaker": "Manish Jugran",
+                        "title": "भारतीयशिक्षणविधीनाां समीक्षणम्"
+                    },
+                    {
+                        "speaker": "Shakti Sharan Sharma",
+                        "title": "संस्कृतवाङ्मये शिक्षासूत्रम्"
+                    },
+                    {
+                        "speaker": "Vijay Kumar Dadhich",
+                        "title": "The Culture Of Knowledge Expansion And Indian Knowledge System (IKS)"
+                    },
+                    {
+                        "speaker": "Nandadulal Mandal",
+                        "title": "प्राचीनावाशचीनशास्त्रेषु निहितविद्यास्रानिरूपणम्"
+                    }
+                ]
+            },
+            {
+                "room": "Room 07",
+                "title": "Sanskrit Pedagogy",
+                "theme": "संस्कृतशिक्षाशास्त्रम्",
+                "chairperson": "Prof. Lok Manya Mishra",
+                "presentations": [
+                    {
+                        "speaker": "Chakradhar Meher",
+                        "title": "Challenges And Opportunities In The Contemporary Scenario Of Sanskrit Pedagogy"
+                    },
+                    {
+                        "speaker": "Gaddam Surya Prasad",
+                        "title": "Making Sanskrit Aspirational: A Study On The Implementation Of NEP 2020"
+                    },
+                    {
+                        "speaker": "Anoop Kumar Pandey",
+                        "title": "भारतीयशिक्षापद्धत्याः पाठ्यचर्याशाश्च स्वरूपम्"
+                    },
+                    {
+                        "speaker": "Bhuvanagiri Venkata Lakshmi Narayana",
+                        "title": "संस्कृतवाङ्मये मनसः विवेचनम्"
+                    },
+                    {
+                        "speaker": "Akhilesh Kumar Basediya",
+                        "title": "बालमनोविज्ञानस्य विशिष्टे संदर्भे पञ्चकोशसिद्धान्त: समग्र मूल्यांकनञ्च"
+                    }
+                ]
+            },
+            {
+                "room": "Room 08",
+                "title": "Veda",
+                "theme": "वेदः",
+                "chairperson": "Dr. D. Dayanath",
+                "presentations": [
+                    {
+                        "speaker": "Dayanath Devanathan",
+                        "title": "विज्ञानमयो वेदः"
+                    },
+                    {
+                        "speaker": "Govind Paudel",
+                        "title": "ऊहः खल्ववप"
+                    },
+                    {
+                        "speaker": "Ravuri Gayathri Murali Krishna",
+                        "title": "वैदिकवाङ्मये स्वप्नविश्लेषणमनोविज्ञानम्"
+                    },
+                    {
+                        "speaker": "Janardan Bhoi",
+                        "title": "Discourse On Infinite Real Bliss Depicted In The Upanishadic Texts"
+                    },
+                    {
+                        "speaker": "Adarsh Vinayak Bhat",
+                        "title": "रैस्वर्यविज्ञानम्"
+                    }
+                ]
+            },
+            {
+                "room": "Room 09",
+                "title": "Poetry, Drama and Aesthetics",
+                "theme": "काव्यमलङ्कारश्च",
+                "chairperson": "Prof. Rajnish Kumar Mishra",
+                "presentations": [
+                    {
+                        "speaker": "Chhoti Bai Meena",
+                        "title": "बुद्धचरिते रामायणविषयवस्तुसादृश्यम्"
+                    },
+                    {
+                        "speaker": "Deepak Raj P K",
+                        "title": "The Concept Of Rasa In Natyasastra: A Philosophical Analysis"
+                    },
+                    {
+                        "speaker": "Shyam Babu",
+                        "title": "मध्यकालीना काव्यपरीक्षागोष्ठी"
+                    },
+                    {
+                        "speaker": "Swarga Kumar Mishra",
+                        "title": "ऋतुसंहारे वेशविज्ञानम्"
+                    },
+                    {
+                        "speaker": "Vipasha Jain",
+                        "title": "गद्यचिन्तामणौ अलङ्कारप्रयोगस्य वैशिष्ट्यम्"
+                    }
+                ]
+            },
+            {
+                "room": "Room 10",
+                "title": "Jyotiṣa",
+                "theme": "ज्योतिषम्",
+                "chairperson": "Prof. Hansdhar Jha",
+                "presentations": [
+                    {
+                        "speaker": "Prasada Bhat",
+                        "title": "अर्थबहुलां बहिर्जातकम्"
+                    },
+                    {
+                        "speaker": "Anand Prakash Pathak",
+                        "title": "अन्तरिक्षानुसन्धाने ज्योतिषशास्त्रस्योपादेयता"
+                    },
+                    {
+                        "speaker": "Ramananda Bhat N.",
+                        "title": "भास्करोक्तसूक्ष्मनक्षत्रानयनत्रमस्य विमर्शः"
+                    },
+                    {
+                        "speaker": "Ekta Sharma",
+                        "title": "The Chakravala Method Of Bhaskaracharya For Solving Equation Represents As Contemporary Iterative Method For Solving Nonlinear Equations."
+                    },
+                    {
+                        "speaker": "Ratan",
+                        "title": "ग्रहगणितस्य अद्वितीयसिद्धान्तः"
+                    }
+                ]
+            },
+            {
+                "room": "Room 11",
+                "title": "Modern/Contemporary Sanskrit Writings",
+                "theme": "आधुनिकां संस्कृतसाहित्यम्",
+                "chairperson": "Prof. Mukund Prasad Lamichhane",
+                "presentations": [
+                    {
+                        "speaker": "Kirana Shankar Bhat",
+                        "title": "एच. वि. नागराजरावियर्स्य शतक्काव्येषु जीवनमूल्यानि"
+                    },
+                    {
+                        "speaker": "Mohini Arora",
+                        "title": "आधुनिकयुगे संस्कृतनाट्यशास्त्रे नारीणामवदानम्"
+                    },
+                    {
+                        "speaker": "Ajay Kumar Mishra",
+                        "title": "A Critical Remark On Anti Establishment Psycho-Political Issues In Contemporary Sanskrit Poetry"
+                    },
+                    {
+                        "speaker": "Ayush Dixit",
+                        "title": "अलां भूषणम् उत भावः"
+                    },
+                    {
+                        "speaker": "Kamalesh",
+                        "title": "भारतीयज्ञानपरम्परायाः वैशिष्ट्यम्"
+                    },
+                    {
+                        "speaker": "Raj Kumar Mishra",
+                        "title": "आधुनिकां संस्कृतसाहित्यम्"
+                    }
+                ]
+            },
+            {
+                "room": "Room 12",
+                "title": "Yoga and Ayurveda",
+                "theme": "योगायुर्वेदौ",
+                "chairperson": "Sadhvi Devpriya",
+                "presentations": [
+                    {
+                        "speaker": "Palash Santra",
+                        "title": "Deconstructing Menstrual Misconceptions: An Ayurvedic Perspective Illuminated Through Raja Festival"
+                    },
+                    {
+                        "speaker": "Pani Prasad V",
+                        "title": "भारतीयज्ञानपरम्परागतसिद्धौषधपद्धत्याां भोज्यपदार्थानामौषधतत्त्वविचारः"
+                    },
+                    {
+                        "speaker": "Rashmitha",
+                        "title": "Nārī-Svāsthya-Vimarśah: A Scientific And Textual Approach Of Yoga On Women Health"
+                    },
+                    {
+                        "speaker": "Dave Nehal Narendrakumar",
+                        "title": "Analytical Study Of Attaining Enjoyment And Liberation By Practicing The Principles Of Yoga, Ayurveda And Vedanta In A Mixed Manner"
+                    },
+                    {
+                        "speaker": "Jyoti Gokavi",
+                        "title": "Yoga Therapy - Gateway To The Holistic Health"
+                    }
+                ]
+            },
+            {
+                "room": "Room 13",
+                "title": "Jaina Studies",
+                "theme": "जैनविद्या",
+                "chairperson": "Jayendra Soni",
+                "presentations": [
+                    {
+                        "speaker": "Shruti Jain",
+                        "title": "Anuprekshas And Their Significance In The Path Of Salvation - The Jain Perspective"
+                    },
+                    {
+                        "speaker": "Achyut Kant Jain",
+                        "title": "Unlocking The Power Of Causality: A Practical Guide To Applying Ekānta And Anekānta For A Better Life"
+                    },
+                    {
+                        "speaker": "Saritha TP",
+                        "title": "Syadvada In Jainism: It's Logicality In Conceptualizing The Theories Of Knowledge"
+                    },
+                    {
+                        "speaker": "Chakote Rohit Mahavir",
+                        "title": "Blending Narratives: Interplay Of Two Jain Rāmāyaṇa Traditions In Bhuvanatanga's Siyācariya"
+                    },
+                    {
+                        "speaker": "Anchit Jain",
+                        "title": "The Issue Of Monastic Dwelling In Jain Texts Of Conduct: Sustained Idealization, Silences And Adaptations"
+                    }
+                ]
+            },
+            {
+                "room": "Room 14",
+                "title": "Linguistics",
+                "theme": "भाषाशास्त्रम्",
+                "chairperson": "Dr. Sucharita Tajane",
+                "presentations": [
+                    {
+                        "speaker": "Preeti Shukla & Devanand Shukla",
+                        "title": "Kariṣye Vacanaṃ Tava – A Discourse Pragmatic analysis of śrīmadbhagavadgītā"
+                    },
+                    {
+                        "speaker": "Aarti Meena",
+                        "title": "नाट्यशास्त्रे प्रयुक्ताः पारिभाषिकाः शब्दाः"
+                    },
+                    {
+                        "speaker": "Anustup Bhattacharyya",
+                        "title": "The Phonology of the Consonant Clusters in the Ṛgveda"
+                    },
+                    {
+                        "speaker": "Avnish Kumar",
+                        "title": "भर्तृहरिदृष्ट्या सार्वभौमकारकव्याकरणस्य निर्माणम्"
+                    },
+                    {
+                        "speaker": "Jyoti",
+                        "title": "Deconstructing The Narrative: A Hetu-Śāstra Critique Of Global Think Tank Assessments Of Indian Democracy And Social Issues"
+                    }
+                ]
+            },
+            {
+                "room": "Room 15",
+                "title": "Scientific Literature",
+                "theme": "वैज्ञानिकां वाङ्मयम्",
+                "chairperson": "Prof. J. S. R. Prasad",
+                "presentations": [
+                    {
+                        "speaker": "Maheswar Macharla Rao",
+                        "title": "धरण्यन्तस्त्रोतसामनुशीलनम्"
+                    },
+                    {
+                        "speaker": "Mahesh Jha",
+                        "title": "संस्कृतवाङ्मये भूगर्भविज्ञानम्"
+                    },
+                    {
+                        "speaker": "Annapurna S",
+                        "title": "Preparation Of Mercury From The Text Ānandakanda"
+                    },
+                    {
+                        "speaker": "Ashim Chakraborty",
+                        "title": "Indian Irrigation System From Vedic To Recent Era: A Study"
+                    },
+                    {
+                        "speaker": "Radhika PR",
+                        "title": "The Scientific Analysis Of Aitareyopanishad"
+                    }
+                ]
+            },
+            {
+                "room": "Room 16",
+                "title": "Tantra Studies",
+                "theme": "आगमास्त्न्त्रं च",
+                "chairperson": "Prof. Shreenand Bapat",
+                "presentations": [
+                    {
+                        "speaker": "Jitendra Kumar Rayaguru",
+                        "title": "तन्त्रपरम्परा शक्तिवादश्च : उत्कलस्य धार्मिक-सांस्कृतिकपरम्परयोः प्रभावः"
+                    },
+                    {
+                        "speaker": "Praveen Mani Tripathi",
+                        "title": "तन्त्रागमदर्शनोक्त-पतिपशुपाशादि पदार्थत्रयाणाां शैक्षिकोपादेयता"
+                    },
+                    {
+                        "speaker": "Ov Shibu",
+                        "title": "भारतीयविज्ञानपरम्परायाां तन्त्रशास्त्रस्य योगदानम्"
+                    },
+                    {
+                        "speaker": "Prasanth B.",
+                        "title": "Evolution Of Bali-Ritual In Śakti Worship-Traditions Of Kerala"
+                    },
+                    {
+                        "speaker": "Chirashree Mukherjee",
+                        "title": "The Transformative Guru: Tantric Insights Into Siddhayoga Practice"
+                    }
+                ]
+            },
+            {
+                "room": "Room 17",
+                "title": "Sanskrit & Computational Linguistics (Session 1)",
+                "theme": "Computational Linguistics",
+                "chairperson": "Prof. Shivani V.",
+                "presentations": [
+                    {
+                        "speaker": "Ganesh Prasad K.S.",
+                        "title": "अमरकोशतन्त्रांशः, कोशव्याख्यानयोः व्याकरणशास्त्रीयविचारश्च"
+                    },
+                    {
+                        "speaker": "Sumit Saxena",
+                        "title": "Usefulness Of Nlp And Application Of Digital Tools In Computational Sanskrit"
+                    },
+                    {
+                        "speaker": "Madan Mohan Jha",
+                        "title": "संस्कृतां एण्ड्रॉयडतन्त्रांश्च"
+                    },
+                    {
+                        "speaker": "Anshul Kumar",
+                        "title": "Content Creation Through Ai Tools: A Question Of Quality, Reliability And Originality"
+                    },
+                    {
+                        "speaker": "Shankararama Ramakrishnan Sharma",
+                        "title": "Mispronunciation Detection For Sanskrit Language Using Connectionist Temporal Classification-Based End-To-End Automatic Speech Recognition"
+                    }
+                ]
+            },
+            {
+                "room": "Room 18",
+                "title": "Sanskrit and Regional Languages",
+                "theme": "संस्कृतं प्रदेशभाषाश्च",
+                "chairperson": "Prof. Shishir Pandey",
+                "presentations": [
+                    {
+                        "speaker": "Amrita Kaur",
+                        "title": "सिक्खधर्मस्य गुरुग्रन्थसाहिब-मध्ये संस्कृतोपनिषद्दर्शनानाां समावेशः"
+                    },
+                    {
+                        "speaker": "Hanglem Sanayaima Singh",
+                        "title": "Relationship Between Sanskrit And Manipuri"
+                    },
+                    {
+                        "speaker": "Koushik Malakar",
+                        "title": "Sanskrit And Bengali Literature: A Deep Literary Interconnection"
+                    },
+                    {
+                        "speaker": "Dayananda Panigrahi",
+                        "title": "जगन्नाथदासकृत-उत्कलीयभागवते ब्रह्मतत्त्वविमर्शः"
+                    },
+                    {
+                        "speaker": "Vinay Kumar Shukla",
+                        "title": "प्रादेशिकभाषाणाां विकासे संस्कृतभाषायाः भूमिका"
+                    }
+                ]
+            },
+            {
+                "room": "Room 19",
+                "title": "Sanskrit and other Classical Languages",
+                "theme": "संस्कृतां प्राच्यभाषाश्च",
+                "chairperson": "Prof. Sadashiv Kumar Dwivedi",
+                "presentations": [
+                    {
+                        "speaker": "Aanandavardhan Nyaupane",
+                        "title": "On The Greek/Latin Translations Of Sanskrit Literature"
+                    },
+                    {
+                        "speaker": "Chandana Biswal",
+                        "title": "श्रीजगन्नाथसंस्कृतिः उत्कलीयभाषासाहित्यञ्च"
+                    },
+                    {
+                        "speaker": "Prabhat Kumar",
+                        "title": "Study Of The Name Translation Strategies Employed In Valmiki Ramayana's Chinese Translation By Prof Ji Xianlin"
+                    },
+                    {
+                        "speaker": "Sujeet Kumar Pandey",
+                        "title": "Role Of Pali And Kashmiri Language In The Development Of Indian Knowledge Systems"
+                    }
+                ]
+            }
+        ],
+        "11:30-11:45": [
+            {
+                "room": "All Rooms",
+                "title": "Tea Break",
+                "theme": "Break",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "Conference Organizers",
+                        "title": "15 Minutes Tea Break"
+                    }
+                ]
+            }
+        ],
+        "11:45-13:15": [
+            {
+                "room": "Room 01",
+                "title": "Special Panel on Atharvaveda (Session 2)",
+                "theme": "Atharvaveda Studies",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "Marina Benedetti & Beatrice Grieco",
+                        "title": "A syntactic collocation in the Atharvaveda and the Indo-European concept of immortality: nāṣṭrā́ (áti) tr̥̄- 'overpass destructions'"
+                    },
+                    {
+                        "speaker": "Shuhei Yamada",
+                        "title": "Phrases of the Brāhmaṇ: A Style in the Prose of the Atharvaveda"
+                    }
+                ]
+            },
+            {
+                "room": "Room 02",
+                "title": "Philosophy and Ontology",
+                "theme": "दर्शनानन, तत्त्वशास्त्रञ्च",
+                "chairperson": "Prof. Sukanta Kumar Senapati",
+                "presentations": [
+                    {
+                        "speaker": "Gowtham Ragothaman",
+                        "title": "आचार्य-आनन्दतीर्थस्य तत्त्ववादे अष्टाङ्गयोगः"
+                    },
+                    {
+                        "speaker": "Rohan Achyut Kulkarni",
+                        "title": "Analysis of the Word Vedānta"
+                    },
+                    {
+                        "speaker": "Rushik Maheshbhai Borad",
+                        "title": "Pramāṇa Vyavasthā in Vāllabha Saṃpradāya"
+                    },
+                    {
+                        "speaker": "Madhura Pramod Kirpekar",
+                        "title": "The Study of Advait Vedanta and Aesthetical Thought in the Kriti of Virhini by Sant Gyaneshwar"
+                    },
+                    {
+                        "speaker": "Pratibha R",
+                        "title": "भगवद्गीताव्याख्यासु गूढार्थदीविकायाः वैशिष्ट्यम्"
+                    }
+                ]
+            },
+            {
+                "room": "Room 03",
+                "title": "Philosophy and Ontology",
+                "theme": "दर्शनानन, तत्त्वशास्त्रञ्च",
+                "chairperson": "Prof. Kamal Kishore Mishra",
+                "presentations": [
+                    {
+                        "speaker": "Vedesh Nagasampige",
+                        "title": "भारतीयदर्शनेषु कारणतास्वरूपविचारः"
+                    },
+                    {
+                        "speaker": "Abhjit Ganesh Joshi",
+                        "title": "Analysis of Tilak's Remark on Gitas' Other Than Bhagavatgita"
+                    },
+                    {
+                        "speaker": "Reshma Kamble",
+                        "title": "Harmonious Understanding Of The Bhagavadgītā And Brahmākumāri's Principles For Universal Brotherhood"
+                    },
+                    {
+                        "speaker": "João Carlos B. Gonçalves",
+                        "title": "Otherness And Diversity In The Means For Transmission Of Knowledge In Yogaśāstra"
+                    },
+                    {
+                        "speaker": "Somrita Mishra",
+                        "title": "The Concept Of Karma In Vedāntasāra : A Critical Analysis"
+                    }
+                ]
+            },
+            {
+                "room": "Room 04",
+                "title": "Vyakarana",
+                "theme": "व्याकरणम्",
+                "chairperson": "Prof. Brajbhushan Ojha",
+                "presentations": [
+                    {
+                        "speaker": "Megha Gupta",
+                        "title": "अभिनवगुप्तजिल्लिकान्तगतानाम् उपसर्गाणाां विश्लेषणात्मकम् अध्ययनम्"
+                    },
+                    {
+                        "speaker": "Aishwarya",
+                        "title": "भगवच्छङ्करकृतस्य वर्णोपदेशस्य वैशिष्ट्यम्"
+                    },
+                    {
+                        "speaker": "Satyaraj Regmi",
+                        "title": "संस्कृतशिक्षण-परम्परायाां शिक्षाव्याकरणयोर्महित्त्वम्"
+                    },
+                    {
+                        "speaker": "Narayan Tiwari",
+                        "title": "वैयाकरणमते स्फोटात्मकशब्दविमर्शः"
+                    },
+                    {
+                        "speaker": "Badri Vishal Pandey",
+                        "title": "अनुबन्धानामनेकान्तत्वविचारः"
+                    }
+                ]
+            },
+            {
+                "room": "Room 05",
+                "title": "Vyakarana",
+                "theme": "व्याकरणम्",
+                "chairperson": "Prof. Brajbhusahan Ojha",
+                "presentations": [
+                    {
+                        "speaker": "Manoj Kumar Gupta",
+                        "title": "Integrating Sanskrit Vyākaraṇa Into Modern Education: Preserving And Revitalizing Indian Knowledge Systems"
+                    },
+                    {
+                        "speaker": "Pankaj Kumar Pandey",
+                        "title": "वर्तविविचारविमर्शः"
+                    },
+                    {
+                        "speaker": "Malgorzata Wielinska-Soltwedel",
+                        "title": "Heinrich Roth's Sanskrit Grammar: A Glimpse Into The Grammatical Tradition In Agra In The 17th Century"
+                    },
+                    {
+                        "speaker": "Prasanta Kumar Mahala",
+                        "title": "कर्मप्रवचनीयाः – एकां समीक्षात्मकमध्ययनम्"
+                    },
+                    {
+                        "speaker": "Gowri T Raghavendran",
+                        "title": "Systematic Understanding Of Sanskrit Language By Bhartrhari: Pada Kandam"
+                    },
+                    {
+                        "speaker": "Sandhya Rathore",
+                        "title": "व्याकरणदर्शने समासवर्तिः"
+                    }
+                ]
+            },
+            {
+                "room": "Room 06",
+                "title": "Sanskrit Pedagogy",
+                "theme": "संस्कृतशिक्षाशास्त्रम्",
+                "chairperson": "Prof. Nilabh Tiwari",
+                "presentations": [
+                    {
+                        "speaker": "Jagdish Chand",
+                        "title": "Problems Regarding Sanskrit Teaching and Their Solutions In Present Scenario"
+                    },
+                    {
+                        "speaker": "Vadiraja K S",
+                        "title": "वेदवेदान्तादिवाङ्मयोक्तशिक्षणपद्धतीनाम् आधुनिककाले औचित्यम्"
+                    },
+                    {
+                        "speaker": "Pawan Kumar",
+                        "title": "विद्याभारतीविद्यालयेषु अध्यापने प्रयुक्तायाः अभिनवपञ्चपदीशिक्षणपद्धतेः विश्लेषणात्मकम् अध्ययनम्"
+                    },
+                    {
+                        "speaker": "Anil Kumar",
+                        "title": "Synthesizing Autoethnography And Ancient Indian Wisdom: Exploring The Convergence Of Western And Indic Research Methodologies"
+                    },
+                    {
+                        "speaker": "Vivek Sharma",
+                        "title": "Kalpa : A Pilgrimage Village And Sanskrit In Its Dialects"
+                    }
+                ]
+            },
+            {
+                "room": "Room 07",
+                "title": "Sanskrit Pedagogy",
+                "theme": "संस्कृतशिक्षाशास्त्रम्",
+                "chairperson": "Prof. Sudesh Kumar Sharma",
+                "presentations": [
+                    {
+                        "speaker": "Shreesha Sameera K.S",
+                        "title": "संस्कृतशिक्षाशास्त्रे निदेशनपरामर्शयोः मीमांसा"
+                    },
+                    {
+                        "speaker": "Ipsita Panda",
+                        "title": "संस्कृतशिक्षणविधयः"
+                    },
+                    {
+                        "speaker": "Rahul Kumar",
+                        "title": "Ancient Lights, Modern Paths: Unveiling Word Meaning Acquisition In Children"
+                    },
+                    {
+                        "speaker": "Suryanarayana K",
+                        "title": "Vedic Phonetics : A Study Of Varnakrama System And Its Application In Speech And Language Therapy"
+                    },
+                    {
+                        "speaker": "Sriram Subramanian",
+                        "title": "Sanskrit And GPTs – Does One Not Need To Learn Vibhaktis And Lakāras Anymore?"
+                    }
+                ]
+            },
+            {
+                "room": "Room 08",
+                "title": "Veda",
+                "theme": "वेदः",
+                "chairperson": "Dr. D. Dayanath",
+                "presentations": [
+                    {
+                        "speaker": "Amand Mishra",
+                        "title": "भारतीयज्ञानपरम्परायाां देवताविज्ञानम्"
+                    },
+                    {
+                        "speaker": "Chouti Shivanand",
+                        "title": "वेदप्रतिपादितविविधविषयेषु साकाङ्क्षविषयाणाां प्रसंगानुसारमुपादेयता"
+                    },
+                    {
+                        "speaker": "Rajashri Vijay Kshirsagar",
+                        "title": "A Conception Of The Waters: In The Avesta And In The Atharvaveda"
+                    },
+                    {
+                        "speaker": "Pradeep Kumar Dixit",
+                        "title": "The Concept Of Personality Development In The Upanishads: A Spiritual And Philosophical Perspective"
+                    },
+                    {
+                        "speaker": "Achyutha Sastry",
+                        "title": "Veda: The Sole Epistemological Benchmark For Dharma"
+                    }
+                ]
+            },
+            {
+                "room": "Room 09",
+                "title": "Poetry, Drama and Aesthetics",
+                "theme": "काव्यमलङ्कारश्च",
+                "chairperson": "Prof. Rani Sadashiv Murthy",
+                "presentations": [
+                    {
+                        "speaker": "Sridevi",
+                        "title": "The Ending Of A Plot And The Meaning Of A Literary Text- Some Reflections From Sanskrit Poetics"
+                    },
+                    {
+                        "speaker": "Ranjan Sigdel",
+                        "title": "जगदीश्वरवैभवशमित्यस्य महाकाव्यत्वम्"
+                    },
+                    {
+                        "speaker": "Sudip Chakravorti",
+                        "title": "Growth Of Camatkāra In Sanskrit Poetics"
+                    },
+                    {
+                        "speaker": "Sujatha Mohan",
+                        "title": "Sattvika Abhinaya In Kalidasa's Drsya Kavyas- Visualised Through Bharata's Natyasastra"
+                    },
+                    {
+                        "speaker": "Harshit Mishra",
+                        "title": "साहित्यशास्त्रपरम्परायाम् अलङ्कारतत्त्वस्य समीक्षणम्"
+                    }
+                ]
+            },
+            {
+                "room": "Room 10",
+                "title": "Jyotiṣa",
+                "theme": "ज्योतिषम्",
+                "chairperson": "Prof. Natalia Fedorova",
+                "presentations": [
+                    {
+                        "speaker": "Vaijayanti Mala",
+                        "title": "पञ्चाङ्गे वर्तिष्ठविज्ञानविमर्शः।"
+                    },
+                    {
+                        "speaker": "Ashish J",
+                        "title": "ज्योतिषशास्त्रदृष्ट्या क्षीरोगविचारः"
+                    },
+                    {
+                        "speaker": "Ripunjay Tiwari",
+                        "title": "कालगणना और ज्योतिष: प्राचीन विज्ञान का वर्तमान प्रासंगिकता"
+                    },
+                    {
+                        "speaker": "Shreenivas",
+                        "title": "The Universality And Astronomical Exactness Of Indian Time Measurement Methods"
+                    },
+                    {
+                        "speaker": "Sakshi Jain",
+                        "title": "देवप्रासादेषु शिखरस्य निर्माणां महत्त्वां च"
+                    }
+                ]
+            },
+            {
+                "room": "Room 11",
+                "title": "Modern/Contemporary Sanskrit Writings",
+                "theme": "आधुनिकां संस्कृतसाहित्यम्",
+                "chairperson": "Prof. Pram Narayan Dwivedi",
+                "presentations": [
+                    {
+                        "speaker": "Chandra Bhushan Jha",
+                        "title": "A Critical Review Of वैदेशिकातनम् (Videshikatanam)"
+                    },
+                    {
+                        "speaker": "Ambika Priyadarshini",
+                        "title": "गान्धीसूक्तिमुक्तावलीकाव्यस्रानाां शैक्षणिकसामाजिकसिद्धान्तानाां सामयिकां विश्लेषणम्"
+                    },
+                    {
+                        "speaker": "Abhishek Das",
+                        "title": "Contributions Of Birendra Kumar Bhattacharya To The Field Of Modern Sanskrit Literature : An Overview"
+                    },
+                    {
+                        "speaker": "Ramakrishnan Venkateswaran",
+                        "title": "Analysis Of Aesthetic Beauty Enhancers Of A Poem Overlaying A Quantitative Layer"
+                    }
+                ]
+            },
+            {
+                "room": "Room 12",
+                "title": "Yoga and Ayurveda",
+                "theme": "योगायुर्वेदौ",
+                "chairperson": "Sadhvi Devpriya",
+                "presentations": [
+                    {
+                        "speaker": "Sushil Kumari",
+                        "title": "श्रीमद्भगवद्गीतायाां ज्ञानयोगविमर्शः"
+                    },
+                    {
+                        "speaker": "Nikita Sameer Joshi",
+                        "title": "Exploring Nidrā As Deep Sleep Consciousness With Select Indian Perspective"
+                    },
+                    {
+                        "speaker": "Dona Mandal",
+                        "title": "Yoga And Ayurveda: A Timeless Science For Modern Health And Wellness"
+                    },
+                    {
+                        "speaker": "Shweta",
+                        "title": "योगाहारयोः मानसिकस्वास्थ्ये प्रभावः"
+                    },
+                    {
+                        "speaker": "Jayaraman M",
+                        "title": "Is Sāttvika State Of Mind A Prerequisite Of Prāṇāyāma Or Its Outcome? - Exploring Contrasting Views In Patañjali Yogasūtras And Haṭhayogapradīpikā"
+                    }
+                ]
+            },
+            {
+                "room": "Room 13",
+                "title": "Law and Society",
+                "theme": "धर्मशास्त्रमर्थशास्त्रां च",
+                "chairperson": "Prof. Makhlesh Kumar",
+                "presentations": [
+                    {
+                        "speaker": "Ashutosh Pareek",
+                        "title": "भारतस्य नवीनराष्ट्रीयशिक्षानीतौ भारतीयज्ञानपरम्परायाः समुत्रशाने विधीयमानसंस्कृतप्रयासानाां समीक्षाजत्मकी विवेचना"
+                    },
+                    {
+                        "speaker": "Neeraj K V",
+                        "title": "Āśauca Practices In Kerala: A Study With Special Reference To N. P. G. Namboothirippad's Commentary On Āśaucacintāmaṇi"
+                    },
+                    {
+                        "speaker": "Sundar Lal Pandey",
+                        "title": "धर्मशास्त्रेषु विधवोद्वाहः"
+                    },
+                    {
+                        "speaker": "Dhruv Shailesh Vachaspati",
+                        "title": "\"मतां विशिष्टाऽद्वैतां मे \" एकमध्ययनम् ।।"
+                    },
+                    {
+                        "speaker": "Rajesh Kumar",
+                        "title": "धर्मशास्त्रीयव्यवहारदर्शने प्रमाणविवेचनम्"
+                    }
+                ]
+            },
+            {
+                "room": "Room 14",
+                "title": "Music and Classical Dance",
+                "theme": "सङ्गीतां नृत्यशास्त्राध्ययनञ्च",
+                "chairperson": "Prof. CN Vijayakumari",
+                "presentations": [
+                    {
+                        "speaker": "Huirem Sushila Devi",
+                        "title": "मणिपुरस्य गोष्ठलीलेति नृत्यस्य शास्त्रीयपक्षः"
+                    },
+                    {
+                        "speaker": "Hari Prasad Paudyal",
+                        "title": "Therapeutic Aspects Of Indian Classical Music- With Special Reference To Raga."
+                    },
+                    {
+                        "speaker": "Ramachandra Joisa H",
+                        "title": "यक्षगानेषु नाट्यशास्त्रतत्त्वानि"
+                    },
+                    {
+                        "speaker": "Bhairavi Pramod Kirpekar",
+                        "title": "Nature In Perspective Of Indian Musicological Study Of Sanskrit"
+                    },
+                    {
+                        "speaker": "Aniruddha Ramamurthy Kondi",
+                        "title": "Restoring The Lost Prabandhas From Mānasollāsa Of Someśvara III: A Study In Medieval Indian Musicology"
+                    }
+                ]
+            },
+            {
+                "room": "Room 15",
+                "title": "History, Art, and Architecture",
+                "theme": "कला स्थापत्यशास्त्रम् इतिहासश्च",
+                "chairperson": "Prof. Amarjiva Lochan",
+                "presentations": [
+                    {
+                        "speaker": "Santosh Godra",
+                        "title": "Maha Kumbh: Ritual Study From A Symbolic And Interpretive Approach"
+                    },
+                    {
+                        "speaker": "Kandregula Varalakshmi",
+                        "title": "संस्कृतहरिकरावाङ्मयम्"
+                    },
+                    {
+                        "speaker": "Sruthy K B",
+                        "title": "भारतीयज्ञानपरम्परान्तर्गतचित्रकला वैश्विकसंस्कृतिअभिवृद्धिश्च"
+                    },
+                    {
+                        "speaker": "Gopalkrishna Bhat",
+                        "title": "प्राचीनभारते वाणिज्यम्"
+                    },
+                    {
+                        "speaker": "Renuka Sharad Bokare",
+                        "title": "An Emotive Element As Envisaged Through Landscape Architecture In Sanskrit Literature"
+                    }
+                ]
+            },
+            {
+                "room": "Room 16",
+                "title": "Sanskrit Epigraphy",
+                "theme": "संस्कृताभिलेखशास्त्रम्",
+                "chairperson": "Prof. Ramakant Pandey",
+                "presentations": [
+                    {
+                        "speaker": "Raghavendra Bhat",
+                        "title": "नैपाल-शिलालेखेषु काव्यात्मना प्रतिबिम्बता समाजिकमूल्यदृष्टिः"
+                    },
+                    {
+                        "speaker": "Keyur Karagudari",
+                        "title": "A Critical Review Of The Parijatamanjari Natika"
+                    },
+                    {
+                        "speaker": "Bibhuti Lochan Sarma",
+                        "title": "प्राचीनकामरूपस्य शिलालेखः एकां विश्लेषणम् (निर्वाचित शिलालेखानाां विशेषावलोकनम्)"
+                    },
+                    {
+                        "speaker": "Raj Purushottam Shirode",
+                        "title": "Mapping The Kṛsna Yajurvēdis In Early Medieval Odisha"
+                    },
+                    {
+                        "speaker": "Debanjan Maity",
+                        "title": "Co-existence and Co-operation in Medieval India: Reference from Lalitpur Stone Inscription (1424 CE)"
+                    }
+                ]
+            },
+            {
+                "room": "Room 17",
+                "title": "Sanskrit & Computational Linguistics (Session 2)",
+                "theme": "Computational Linguistics",
+                "chairperson": "Shankararama Ramakrishnan Sharma",
+                "presentations": [
+                    {
+                        "speaker": "Ankita Bhargawa",
+                        "title": "Developing A Computational Ontology For Vedāntasāra: Mapping Concepts In Advaita Vedanta"
+                    },
+                    {
+                        "speaker": "Shankararama Sharma",
+                        "title": "Optimizing Sanskrit Antyakshari with Directed Graphs: A Competitive and Strategic Tool for Enhanced"
+                    },
+                    {
+                        "speaker": "Sunita Barman",
+                        "title": "How To Focus On Happiness And Spirituality"
+                    },
+                    {
+                        "speaker": "Tushar Gandhi",
+                        "title": "Sanskrit And Large Language Models: Present Status And Future Prospects"
+                    }
+                ]
+            },
+            {
+                "room": "Room 18",
+                "title": "Sanskrit and Regional Languages",
+                "theme": "संस्कृतं प्रदेशभाषाश्च",
+                "chairperson": "Prof. Laxmi Niwas Pandey",
+                "presentations": [
+                    {
+                        "speaker": "Avdhesh Chandra Bijlwan",
+                        "title": "The Impact Of Sanskrit On The Garhwali Language"
+                    },
+                    {
+                        "speaker": "Sanjeev Panchal",
+                        "title": "The Particle \"Iti\" In Sanskrit: Syntactic Roles And Translation Insights"
+                    },
+                    {
+                        "speaker": "Sharda Narayanan",
+                        "title": "Tirumurai - Tamil Saiva Sacred Songs And Sanskrit Traditions"
+                    }
+                ]
+            },
+            {
+                "room": "Room 19",
+                "title": "Linguistics",
+                "theme": "भाषाशास्त्रम्",
+                "chairperson": "Prof. Tushar Gandhi",
+                "presentations": [
+                    {
+                        "speaker": "Rahul Kumar",
+                        "title": "A Comparative Analysis Of Mammaṭa's And Viśvanātha's Implicit Philosophy Of Language"
+                    },
+                    {
+                        "speaker": "Saranya K",
+                        "title": "Niruktaslokavarttika Of Nilakantha : An Introduction"
+                    },
+                    {
+                        "speaker": "Tushar Gandhi",
+                        "title": "Computational Analysis Of Pāṇiniya Śikṣā : Important Insights For Speech Processing"
+                    }
+                ]
+            }
+        ],
+        "13:15-14:45": [
+            {
+                "room": "All Rooms",
+                "title": "Lunch Break",
+                "theme": "Break",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "Conference Organizers",
+                        "title": "90 Minutes Lunch Break"
+                    }
+                ]
+            }
+        ],
+        "14:45-16:15": [
+            {
+                "room": "Room 01",
+                "title": "Special Panel on Atharvaveda (Session 3)",
+                "theme": "Atharvaveda Studies",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "Massimo Vai",
+                        "title": "Some observations on the left periphery of the Vedic sentence"
+                    },
+                    {
+                        "speaker": "Nicoletta Puddu",
+                        "title": "Reflexive Constructions in the Atharvaveda"
+                    },
+                    {
+                        "speaker": "Althea Sovani",
+                        "title": "Four types, one type: Non-subordinated infinitives in the Atharvaveda and early Vedic"
+                    },
+                    {
+                        "speaker": "Oliver Hellwig & Paul Widmer",
+                        "title": "Discontinuous Linearization of Vedic Nominal Expressions. A Bayesian Approach"
+                    }
+                ]
+            },
+            {
+                "room": "Room 02",
+                "title": "Philosophy and Ontology",
+                "theme": "दर्शनानन, तत्त्वशास्त्रञ्च",
+                "chairperson": "Prof. Hare Ram Tripathi",
+                "presentations": [
+                    {
+                        "speaker": "Kabita Panda",
+                        "title": "भारतीयदर्शनशास्त्रे न्यायदर्शनस्य अन्यशाख्यानतस्राथापनम्"
+                    },
+                    {
+                        "speaker": "Debjyoti Kundu",
+                        "title": "अवधूतगीतोक्तानाां लौकिकविशानकानाम् अद्वैतवेदान्तदृष्ट्या समीक्षणम्"
+                    },
+                    {
+                        "speaker": "Shraddha Parag Deopujari",
+                        "title": "पञ्चरत्नकारिकादिशा वाक्यार्थविचारः - एकम् अध्ययनम्"
+                    },
+                    {
+                        "speaker": "Namrata Singh",
+                        "title": "कुमारिलभट्टसम्मतशब्दस्वरूपस्य भर्तृहरेः स्फोटसिद्धान्तदृष्ट्या समीक्षणम्"
+                    },
+                    {
+                        "speaker": "Alberto Anro",
+                        "title": "Rethinking Animal Inference. Nyāya Logic For Nonverbal Cognition"
+                    }
+                ]
+            },
+            {
+                "room": "Room 04",
+                "title": "Vyakarana",
+                "theme": "व्याकरणम्",
+                "chairperson": "Prof. Shridhar Mishra",
+                "presentations": [
+                    {
+                        "speaker": "Bhakti Jadhav",
+                        "title": "Explanation Of The Concept Of Camatkāra Through The Vaiyākaraṇa Śābdabodha."
+                    },
+                    {
+                        "speaker": "Rishit Desai",
+                        "title": "On The Use Of 'Athavā' In The Mahābhāṣya"
+                    },
+                    {
+                        "speaker": "John Lowe",
+                        "title": "Are Compounds Optional?"
+                    },
+                    {
+                        "speaker": "Manish Gavkar",
+                        "title": "Adjectives About Femininity In Strī pratyaya In Vsk With Reference To Kāmaśāstra Texts – An Aesthetic Study"
+                    },
+                    {
+                        "speaker": "Bhakti Sudhir Jadhav",
+                        "title": "Explanation Of The Concept Of Camatkāra Through Vaiyākaraṇa Śābdabodha"
+                    }
+                ]
+            },
+            {
+                "room": "Room 05",
+                "title": "Vyakarana",
+                "theme": "व्याकरणम्",
+                "chairperson": "Prof. Shivani V.",
+                "presentations": [
+                    {
+                        "speaker": "Narayan Suvedi",
+                        "title": "अतिदेशस्य लोकशास्त्रव्यापकत्वानुशीलनम्"
+                    },
+                    {
+                        "speaker": "Govinda Paudel",
+                        "title": "अनुभूतिस्वरूपाचार्यकृतसारस्वतव्याकरणस्यौचित्यम्"
+                    },
+                    {
+                        "speaker": "Prasad Joshi",
+                        "title": "Reflecting On The Active And Passive Character Of The Sanskrit Suffix -Tum"
+                    },
+                    {
+                        "speaker": "Nitesh Kumar Dwivedi",
+                        "title": "पदवाक्यप्रमाणशास्त्राभिमतशाब्दबोधे मुख्यविशेष्यत्वविचारः"
+                    },
+                    {
+                        "speaker": "D Pranavacharya",
+                        "title": "व्युत्पत्तिवादग्रन्राधारेण द्वितीयाद्विभक्यर्थविमर्शः"
+                    },
+                    {
+                        "speaker": "Paritosh Das",
+                        "title": "राजशेखरमते समासस्य सप्तविधत्वां कर्म्?"
+                    }
+                ]
+            },
+            {
+                "room": "Room 06",
+                "title": "Sanskrit Pedagogy",
+                "theme": "संस्कृतशिक्षाशास्त्रम्",
+                "chairperson": "Prof. Pawan Kumar",
+                "presentations": [
+                    {
+                        "speaker": "Sachidananda Murthy A",
+                        "title": "श्रीमद्भगवद्गीतायाम् अन्तदृष्टिः"
+                    },
+                    {
+                        "speaker": "M. Dattatraya Sharma",
+                        "title": "अधिगन्तॄणाां विचारप्रक्रियाः संज्ञानात्मककौशलानि च"
+                    },
+                    {
+                        "speaker": "Saraswathi Devi V",
+                        "title": "Howard Gardner's Multiple Intelligence Theory : Attempt To Apply It In Sanskrit Pedagogy"
+                    },
+                    {
+                        "speaker": "Vivek Sharma",
+                        "title": "हिमाचलप्रदेशे संस्कृतस्य शिक्षणम्"
+                    }
+                ]
+            },
+            {
+                "room": "Room 07",
+                "title": "Veda",
+                "theme": "वेदः",
+                "chairperson": "Prof. Mahabaleshwar Bhat",
+                "presentations": [
+                    {
+                        "speaker": "Sanghamitra Milind Thakur",
+                        "title": "Rituals Of Purification: Unveiling The Significance Of Water In Vedic Practices"
+                    },
+                    {
+                        "speaker": "Priyanka Chowdhury",
+                        "title": "The Comparative Study Of The Vedic Deity Indra And German Deity Thor"
+                    },
+                    {
+                        "speaker": "Tanuja Rani Panda",
+                        "title": "सायणस्य यज्ञोन्मुखी धारा"
+                    },
+                    {
+                        "speaker": "Narendra Dutt Tiwari",
+                        "title": "Vede Ahimsayah Swarupam"
+                    },
+                    {
+                        "speaker": "Biraj Krushna Mishra",
+                        "title": "Vedantic Model Of Consciousness As Reflected In The Mandukya Upanisad : A Study"
+                    }
+                ]
+            },
+            {
+                "room": "Room 08",
+                "title": "Puranas",
+                "theme": "पुराणानि",
+                "chairperson": "Prof. Vijaykumr C. G.",
+                "presentations": [
+                    {
+                        "speaker": "Lalit Kishore Sharma",
+                        "title": "श्रीमद्भागवतमहापुराणे सामाजिकजस्थिति:"
+                    },
+                    {
+                        "speaker": "Minati Rath",
+                        "title": "Bhagavate Astangyogasya Prayo Gikam Swarupam"
+                    },
+                    {
+                        "speaker": "Naunihal Gautam",
+                        "title": "आराधिकाऽऽराध्या च श्रीराधा"
+                    },
+                    {
+                        "speaker": "Manasi Nandi",
+                        "title": "मत्स्यपुराणे मूर्तिकलापयाशलोचनम्"
+                    },
+                    {
+                        "speaker": "Harsh Thakkar",
+                        "title": "Our Journey in Creating a Saṃskṛtaṃ Animation Movie: Śrīsatyanārāyaṇa Kathā"
+                    }
+                ]
+            },
+            {
+                "room": "Room 09",
+                "title": "Poetry, Drama and Aesthetics",
+                "theme": "काव्यमलङ्कारश्च",
+                "chairperson": "Prof. Mayuri Bhatiya",
+                "presentations": [
+                    {
+                        "speaker": "Muralidharan P.C.",
+                        "title": "\"Why This Enchanting Smile, O! Lord Rāma\" : Query Of The Mandasmita Rāmāyaṇa"
+                    },
+                    {
+                        "speaker": "Mayank Tiwari",
+                        "title": "आचार्यमल्लनागवात्स्यायनात्प्राप्तविद्यमाना कामशास्त्रीयपरम्परा"
+                    },
+                    {
+                        "speaker": "Farida Molla",
+                        "title": "संस्कृतसाहित्ये परिवेशतत्त्वस्य एका समीक्षा"
+                    },
+                    {
+                        "speaker": "Basant Koirala",
+                        "title": "विविधशास्त्रनये वर्तिविमर्शः"
+                    },
+                    {
+                        "speaker": "Padmaja Venkatesh",
+                        "title": "Śankara Rasānubhāvam- A Talk With Dance Presentation, Taking Examples From Works Of Ādi Śankara"
+                    }
+                ]
+            },
+            {
+                "room": "Room 10",
+                "title": "Jyotiṣa",
+                "theme": "ज्योतिषम्",
+                "chairperson": "Dr. Raman Mishra",
+                "presentations": [
+                    {
+                        "speaker": "Priyanka Devi",
+                        "title": "भारतीयवर्तिष्ठविज्ञाने मेघसंरचनायाः ज्योतिषशास्त्रीय विमर्शः"
+                    },
+                    {
+                        "speaker": "Ishwaramurthy Bhat",
+                        "title": "श्रीमन्नारदीयपुराणोक्तानि परिकर्माणि"
+                    },
+                    {
+                        "speaker": "Sarita Mahapatra",
+                        "title": "ज्योतिषशास्त्रे संहितानुसारमुत्पातानाां विमर्शः"
+                    },
+                    {
+                        "speaker": "Mayuresh Marathe",
+                        "title": "भारतीयज्योतिषशास्त्रानुसारां प्रजोत्पत्तिचिन्तनां साम्प्रतिकप्रामुख्यता च।"
+                    },
+                    {
+                        "speaker": "Suresh Sharma",
+                        "title": "भारतीयगणितज्योतिषशास्त्रे श्रेढीगणितविचारः वर्तमाने प्रासंगिकता च।"
+                    }
+                ]
+            },
+            {
+                "room": "Room 11",
+                "title": "Ramayanam and Mahabharatam",
+                "theme": "रामायणां महाभारतां च",
+                "chairperson": "Prof. Ram Sevak Dubey",
+                "presentations": [
+                    {
+                        "speaker": "Murlidhar",
+                        "title": "रामायणसूक्तिषु सकारात्मकमनोविज्ञानम्"
+                    },
+                    {
+                        "speaker": "Narsalay Madhavi Raghav",
+                        "title": "Does The Mahabharata Represent An Alternative Tradition?"
+                    },
+                    {
+                        "speaker": "Venkatasubramanian P",
+                        "title": "Leadership In Adversity - Comparing Sundarakanda With Leading At The Edge"
+                    },
+                    {
+                        "speaker": "Ravi Kant",
+                        "title": "Unraveling The Layers Of The Mahabharata: Cinema, Folklore, Misinterpretation, And The Fragmentation Of An Epic Tradition"
+                    },
+                    {
+                        "speaker": "Vinay Sharma",
+                        "title": "Interpretation of Sustainability From Shri Ramcharit Manas and Ramayana"
+                    }
+                ]
+            },
+            {
+                "room": "Room 12",
+                "title": "Yoga and Ayurveda",
+                "theme": "योगायुर्वेदौ",
+                "chairperson": "Sadhvi Devpriya",
+                "presentations": [
+                    {
+                        "speaker": "Joanna Flynn",
+                        "title": "On Karmic Etiology Of Diseases In Jaina And Hindu Traditions"
+                    },
+                    {
+                        "speaker": "Corinna May Lhoir",
+                        "title": "Exploring Linguistic And Cultural Translations In Jain Yoga Manuscripts"
+                    },
+                    {
+                        "speaker": "Arpit Dubey",
+                        "title": "Effects Of Prana Mudra And Nadi Shodhan Pranayama On Sleep Quality And Academic Stress Amongst Female Students Living In Hostel"
+                    },
+                    {
+                        "speaker": "Sander Hens",
+                        "title": "Raving Shiva: From Outer To Inner Technologies Of Ecstasy"
+                    },
+                    {
+                        "speaker": "Prakash Hegde",
+                        "title": "Sanskrita Saahitye Aayurveda Vijnaanam"
+                    }
+                ]
+            },
+            {
+                "room": "Room 13",
+                "title": "Law and Economics",
+                "theme": "विधिशास्त्रमर्थशास्त्रं च",
+                "chairperson": "Dr. Bhavani Shankar Adhiklari",
+                "presentations": [
+                    {
+                        "speaker": "Lakshmi Mishra",
+                        "title": "धर्मशास्त्रे दायविमर्शः"
+                    },
+                    {
+                        "speaker": "Preethi V.",
+                        "title": "Strīdhana—A Concept in Dharmashastra"
+                    },
+                    {
+                        "speaker": "Sushree Sasmita Pati",
+                        "title": "Discussion Of Inheritance And Property Rights In Laghu Arhaniti"
+                    },
+                    {
+                        "speaker": "Brunda Karanam Lakshmi",
+                        "title": "Judicial Process In The Dharmaśāstras - Exploring Courts, Accountability & Pleadings"
+                    },
+                    {
+                        "speaker": "Madhukeshwar Bhat & Chandra Mohan Nautiyal",
+                        "title": "भारतीयन्यायसंहितायाां याज्ञवल्क्यस्मृतेः प्रभावः"
+                    }
+                ]
+            },
+            {
+                "room": "Room 14",
+                "title": "Music and Classical Dance",
+                "theme": "सङ्गीतं नृत्यशास्त्राध्ययनञ्च",
+                "chairperson": "Dr. Ragasudhi Vinjamuri",
+                "presentations": [
+                    {
+                        "speaker": "Sudha Mishra",
+                        "title": "\"नाट्यशास्त्रे समागतानाां साङ्गीतिकतत्त्वानामध्ययनम्\""
+                    },
+                    {
+                        "speaker": "Vineetha K.",
+                        "title": "Concept of Maṇipravālam in Maharāja Swāthi Tirunal Kriti-s"
+                    },
+                    {
+                        "speaker": "Prasad Bhide",
+                        "title": "Pūrvaraṅga – An analysis from the point of view of its performance"
+                    },
+                    {
+                        "speaker": "Falguni Joshi-Natu",
+                        "title": "Āṅgikābhinaya: A comparative study of body gestures from Nāṭyaṡāstra and Abhinayadarpaṇam"
+                    },
+                    {
+                        "speaker": "Gauri Kulkarni",
+                        "title": "Understanding the ancient and modern concept of 22 Shrutis explained in Bharata's Natyashastra"
+                    }
+                ]
+            },
+            {
+                "room": "Room 15",
+                "title": "History, Art, and Architecture",
+                "theme": "कला स्थापत्यशास्त्रम् इतिहासश्च",
+                "chairperson": "Dr. Mriganka Sekhar Sarma",
+                "presentations": [
+                    {
+                        "speaker": "Avanish Kumar Tripathi",
+                        "title": "Socio-Cultural History Of Third Gender Through The Ages Of Indian History"
+                    },
+                    {
+                        "speaker": "Aparajita Anshu",
+                        "title": "नागरद्राविड़प्रासादवास्तुयवानाां तुलनात्मकमध्ययनम् (A Comparitive Study Of Components Of Nāgara And Drāvida Temple Vāstu)"
+                    },
+                    {
+                        "speaker": "SAS Sarma",
+                        "title": "Exploring The Distinctive Ritual System Of Avudaiyar Temple In Tamil Nadu: Differences, Sources, And Performers"
+                    },
+                    {
+                        "speaker": "Vasiliki Deroukaki",
+                        "title": "An Interpretation, Through Manichean Doctrine, Of The Depiction Of Kali Stepping On The Reclining Shiva"
+                    },
+                    {
+                        "speaker": "Jamyang Phuntsok",
+                        "title": "Introduction To Sanskrit Inscriptions On The Reverse Side Of The Yamantaka Statue At Nyi-Ma-Thang Monastery In Lhasa, Tibet —Jamyangphuntsok"
+                    }
+                ]
+            },
+            {
+                "room": "Room 16",
+                "title": "Manuscriptology",
+                "theme": "पाण्डुलिपिविज्ञानम्",
+                "chairperson": "Dr. Mantha Shrinivasu",
+                "presentations": [
+                    {
+                        "speaker": "Jaikishan Nainani",
+                        "title": "भारतस्य विकासयात्रायाां पाण्डुलिपीनाम् अवदानम्"
+                    },
+                    {
+                        "speaker": "Purnima Thapa",
+                        "title": "Dattaputravidhānam: A Rare, Unpublished Manuscript Work By Śaunaka"
+                    },
+                    {
+                        "speaker": "Chandan Mahanti",
+                        "title": "ग्रन्थलिपिस्थामतिकासम्पादने समागताः समस्याः, तत्समाधानोपायाश्च"
+                    },
+                    {
+                        "speaker": "Amit Murari",
+                        "title": "संस्कृतवाङ्मये पाण्डुलिपिसम्पादनस्य कला"
+                    },
+                    {
+                        "speaker": "P. M. Gupta",
+                        "title": "Empowering Ancient Wisdom: Leveraging Open-Source Software and AI Tools for the Digitization, Preservation, and Dissemination of Manuscripts and (IKS) Resources"
+                    }
+                ]
+            },
+            {
+                "room": "Room 17",
+                "title": "Sanskrit & Computational Linguistics (Session 3)",
+                "theme": "Computational Linguistics",
+                "chairperson": "Prof. Venkappayya R. Desai",
+                "presentations": [
+                    {
+                        "speaker": "Ronit Kumar",
+                        "title": "Siva.Sh: An All-In-One Platform To Study Sanskrit Literature"
+                    },
+                    {
+                        "speaker": "Sushant Dave",
+                        "title": "Neural-Network Based Compound Segmentation In Sanskrit"
+                    },
+                    {
+                        "speaker": "Kishori Radhey",
+                        "title": "Intelligent Tutoring System (ITS) For Sanskrit Language Learning With Focus On Kārakam and Yogyatā"
+                    },
+                    {
+                        "speaker": "Jayanthi C.K",
+                        "title": "Modern Writings In Kutiyattam The Traditional Sanskrit Theatre Of Kerala"
+                    }
+                ]
+            },
+            {
+                "room": "Room 18",
+                "title": "Vaisnavism and Saivism",
+                "theme": "वैष्णवमतं शैवमतं च",
+                "chairperson": "Prof. Sthaneshwar Timalsina",
+                "presentations": [
+                    {
+                        "speaker": "Ramesh Chandra Nailwal",
+                        "title": "काश्मीरस्य भक्तिपरम्परा तद्वैशिष्ट्यञ्च (शैववैष्णवशाक्तस्तोत्राणामालोके)"
+                    },
+                    {
+                        "speaker": "Athira PH",
+                        "title": "शिवविशिष्टाद्वैतरीत्या विधिविचारः ।"
+                    },
+                    {
+                        "speaker": "Bhojaraja T",
+                        "title": "Avikṛta Pariṇāma Vāda: The Unchanged Transformation Theory of śaiva tradition as Interpreted in Siddhāntaśikhāmaṇi"
+                    },
+                    {
+                        "speaker": "Koushik Halder",
+                        "title": "बङ्गीयसंस्कृतचम्पूसाहित्ये वैष्णवाचारः।"
+                    },
+                    {
+                        "speaker": "Bhawani Shankar Bhattarai",
+                        "title": "पाणिनीयव्याकरणविस्तारे नैपालमवदानम्"
+                    }
+                ]
+            }
+        ],
+        "14:45-17:00": [
+            {
+                "room": "Buddha Hall",
+                "title": "VĀKYĀRTHA SABHĀ",
+                "theme": "Sanskrit Discourse Session",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "Conference Participants",
+                        "title": "Sanskrit Discourse and Debate Session"
+                    }
+                ]
+            }
+        ],
+        "16:15-16:30": [
+            {
+                "room": "All Rooms",
+                "title": "Tea Break",
+                "theme": "Break",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "Conference Organizers",
+                        "title": "15 Minutes Tea Break"
+                    }
+                ]
+            }
+        ],
+        "16:30-18:00": [
+            {
+                "room": "Room 01",
+                "title": "Special Panel on Atharvaveda (Session 4)",
+                "theme": "Atharvaveda Studies",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "Davide Mocci & Tiziana Pontillo",
+                        "title": "The agent and patient of -́tave/tavái-infinitives in the Atharvaveda tradition: Insights from Pāṇini's grammar"
+                    },
+                    {
+                        "speaker": "All Panelists",
+                        "title": "Panel Discussion and Closing Remarks"
+                    }
+                ]
+            },
+            {
+                "room": "Room 02",
+                "title": "Philosophy and Ontology",
+                "theme": "दर्शनानन, तत्त्वशास्त्रञ्च",
+                "chairperson": "Prof. Sachchidananda Mishra",
+                "presentations": [
+                    {
+                        "speaker": "Neelam Kumari",
+                        "title": "Model of Antaḥkaraṇa in Sāṃkhya-Yoga"
+                    },
+                    {
+                        "speaker": "Ruzana Pskhu",
+                        "title": "On the Peculiarities of Brāhmaṇic Paradigm of Thinking"
+                    },
+                    {
+                        "speaker": "Swati Kulkarni",
+                        "title": "मधुराष्टकम् स्तोत्रे पुष्टिभक्तिमार्गः"
+                    },
+                    {
+                        "speaker": "Ishvar Singh Shekhawat",
+                        "title": "Anand: A Distinctive View of Advaita Vedanta"
+                    }
+                ]
+            },
+            {
+                "room": "Room 04",
+                "title": "Vyakarana",
+                "theme": "व्याकरणम्",
+                "chairperson": "Prof. Shivani V.",
+                "presentations": [
+                    {
+                        "speaker": "Anu",
+                        "title": "Identifying The Verb Frames For Sanskrit Verb Bhū."
+                    },
+                    {
+                        "speaker": "Bithika Kundu",
+                        "title": "अधिकरणकारकविमर्शः"
+                    },
+                    {
+                        "speaker": "Jyoti",
+                        "title": "Mathematical Modelling Of PāṇInian Grammar With Special Reference To The Function Of Yaṇ Sandhi"
+                    },
+                    {
+                        "speaker": "Chakrapani Khanal",
+                        "title": "Vyakarane Streepratyaya-Vimarshah"
+                    },
+                    {
+                        "speaker": "R.P. Jain",
+                        "title": "Sanskrit Renaissance in the Electronic Age - Contemporary Relevance of Sanskrit"
+                    }
+                ]
+            },
+            {
+                "room": "Room 05",
+                "title": "Philosophy and Ontology",
+                "theme": "दर्शनानन, तत्त्वशास्त्रञ्च",
+                "chairperson": "Prof. Kamal Kishore Mishra",
+                "presentations": [
+                    {
+                        "speaker": "Kalla Manogna",
+                        "title": "Solving The Paradox Of Inquiry Through The Commentary Of Sankara"
+                    },
+                    {
+                        "speaker": "Ankit Pankaj Rawal",
+                        "title": "Experiments Of Spiritual Upliftment Based On Bhagavadgītā By Swādhyāya Parivāra."
+                    },
+                    {
+                        "speaker": "Muthulekshmi K",
+                        "title": "Four Bodies And Five States - Through Keralite Advaitic Works Of Medieval Period."
+                    },
+                    {
+                        "speaker": "Somveer Singhal",
+                        "title": "भारतीयदर्शने प्रामाण्यवादविमर्शः"
+                    },
+                    {
+                        "speaker": "Lisa Widdison",
+                        "title": "World-Wide-Words: From Bhagavad Gītā 15.12 – 15.15, To Pratyabhijñā In Epistemology"
+                    }
+                ]
+            },
+            {
+                "room": "Room 06",
+                "title": "Sanskrit Pedagogy",
+                "theme": "संस्कृतशिक्षाशास्त्रम्",
+                "chairperson": "Prof. K. K. Shain",
+                "presentations": [
+                    {
+                        "speaker": "Gagan Chandra Dey",
+                        "title": "प्राचीनभारतवर्षस्य शिक्षापद्धतौ शिक्षाया उद्देश्यम्"
+                    },
+                    {
+                        "speaker": "Viswanand Puteea",
+                        "title": "Enhancing Pronunciation Skills Through The Guidelines Of Yājñavalkyaśikṣā"
+                    },
+                    {
+                        "speaker": "Chinmayee Priyadarshini",
+                        "title": "सत्त्वान्तकता"
+                    },
+                    {
+                        "speaker": "Jagruti Adhya",
+                        "title": "गौतमन्यायसूत्रोक्तस्मृतिनिर्माणानाां शिक्षणशास्त्रीयविमर्शः"
+                    },
+                    {
+                        "speaker": "Sriram Durbha",
+                        "title": "Revitalizing Sanskrit Education: Exploring Sanskrit Programming As A Pedagogical Tool"
+                    }
+                ]
+            },
+            {
+                "room": "Room 07",
+                "title": "Veda",
+                "theme": "वेदः",
+                "chairperson": "Prof. Mahabaleshwar Bhat",
+                "presentations": [
+                    {
+                        "speaker": "Renuka Panchal",
+                        "title": "Vedic Glimpses Of Dyūtakrīḍā With Special Reference To Akṣa Sūktam In Ṛgveda – A Cognitive And Psychological Perspective"
+                    },
+                    {
+                        "speaker": "Durga Saran Rath",
+                        "title": "सूर्य आत्मा जगतस्तस्थुषश्च"
+                    },
+                    {
+                        "speaker": "Ramesh Chandra Senapati",
+                        "title": "अर्थवेदे जन्तुविज्ञानम्"
+                    },
+                    {
+                        "speaker": "Pradyumn Sharma",
+                        "title": "Darsha-Purna-Maseshti: Ritual And Spiritual Dimensions In The Taittiriya Tradition"
+                    },
+                    {
+                        "speaker": "Pradyumn Sharma",
+                        "title": "Understanding Of Climates In The Vedas And Brahmanas"
+                    }
+                ]
+            },
+            {
+                "room": "Room 08",
+                "title": "TBA",
+                "theme": "TBA",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "TBA",
+                        "title": "TBA"
+                    }
+                ]
+            },
+            {
+                "room": "Room 09",
+                "title": "TBA",
+                "theme": "TBA",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "TBA",
+                        "title": "TBA"
+                    }
+                ]
+            },
+            {
+                "room": "Room 10",
+                "title": "Jyotiṣa",
+                "theme": "ज्योतिषम्",
+                "chairperson": "Dr. Raman Mishra",
+                "presentations": [
+                    {
+                        "speaker": "Shraddhanji Das",
+                        "title": "ज्योतिर्शास्त्रदृष्ट्या स्नायुरोगाणाां विश्लेषणात्मकमध्ययनम्"
+                    },
+                    {
+                        "speaker": "Mansi Dhariwal",
+                        "title": "A New Approach To Jain Astronomy: Rediscovering Ancient Knowledge Systems"
+                    }
+                ]
+            },
+            {
+                "room": "Room 11",
+                "title": "Ramayanam and Mahabharatam",
+                "theme": "रामायणां महाभारतां च",
+                "chairperson": "Prof. Om Nath Bimali",
+                "presentations": [
+                    {
+                        "speaker": "Ashima Shrawan",
+                        "title": "Mahabharata: Civilizational Response To The West"
+                    },
+                    {
+                        "speaker": "Radhavallabh Sharma",
+                        "title": "श्रीमद्भगवद्गीता - प्रबन्धनविज्ञानिधिः"
+                    },
+                    {
+                        "speaker": "Kaliprasanna Satapathy",
+                        "title": "महाभारते शिखण्डिचरित्रे विज्ञानम्"
+                    },
+                    {
+                        "speaker": "Manjushri Shripad Nevhal",
+                        "title": "An Overview Of Adiparva"
+                    },
+                    {
+                        "speaker": "Amruta Natu",
+                        "title": "The Problem Of Karṇopanivāda-Parvan Of The Mahābhārata"
+                    }
+                ]
+            },
+            {
+                "room": "Room 12",
+                "title": "TBA",
+                "theme": "TBA",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "TBA",
+                        "title": "TBA"
+                    }
+                ]
+            },
+            {
+                "room": "Room 13",
+                "title": "Law and Economics",
+                "theme": "विधिशास्त्रमर्थशास्त्रं च",
+                "chairperson": "Dr. Bhavani Shankar Adhiklari",
+                "presentations": [
+                    {
+                        "speaker": "Sidartha Panda",
+                        "title": "प्रवर्तमानन्यायिकप्रणाल्याां मैत्रिवेल्-मीमांसासिद्धान्तयोः सामाजिकदृष्ट्या विमर्शः"
+                    },
+                    {
+                        "speaker": "Anil Kumar",
+                        "title": "Principles Of Vedic Ethics And Fundamental Aspects Of Human Rights"
+                    },
+                    {
+                        "speaker": "Krishna Sharma",
+                        "title": "भारतीयविधिशास्त्रे आत्मानुशासनम्"
+                    }
+                ]
+            },
+            {
+                "room": "Room 14",
+                "title": "Veda & Scientific Literature",
+                "theme": "वेदः & वैज्ञानिकां वाङ्मयम्",
+                "chairperson": "Prof. Mohan Lal Chhipa",
+                "presentations": [
+                    {
+                        "speaker": "Kankana Goswami",
+                        "title": "A Scientific Study Of The Colour Theory Of Colorimetry Associated With The Upanishadic Theory Of Cosmology"
+                    },
+                    {
+                        "speaker": "Shaunak Pimputkar",
+                        "title": "Mars: A Planetary Deity In Vedic Texts"
+                    },
+                    {
+                        "speaker": "Chakrapani Pokhrel",
+                        "title": "पाणिनीयव्याकरणे प्रयुक्तानाां वैदिकसंज्ञानाां ऋक्प्रातिशाख्यदृष्ट्या अनुशीलनम्"
+                    },
+                    {
+                        "speaker": "Badrinatha Bellary",
+                        "title": "संस्कृतवाङ्मये प्रसूतिशास्त्रस्य प्रस्तुतिः"
+                    },
+                    {
+                        "speaker": "Jay Kant Mandal",
+                        "title": "Revisiting Pratyayas Of Saṅgītaratnākara With The Introduction Of Śārṅgadeva's Recurrence Polynomials"
+                    }
+                ]
+            },
+            {
+                "room": "Room 15",
+                "title": "Epic and poetry",
+                "theme": "काव्याध्ययनम्",
+                "chairperson": "Prof. Sampadananda Mishra",
+                "presentations": [
+                    {
+                        "speaker": "Aruna Banavar Shankar",
+                        "title": "\"Mangalacharanam\" A Poet's Intelligent Technique To Establish A Double Connection One With The God"
+                    },
+                    {
+                        "speaker": "Mukund Sharma",
+                        "title": "श्रीअमरवाण्याां प्रणीता काव्यमालिका"
+                    },
+                    {
+                        "speaker": "Arpita Paul",
+                        "title": "The Supremacy Of Śrī Rādhā In Jayadeva's Gītagovindaṃ: A Glimpse Through Vaiṣnava Devotional Scriptures"
+                    },
+                    {
+                        "speaker": "Sweta Prajapati",
+                        "title": "Temporality And Atemporality In The Kāvyādarśa"
+                    },
+                    {
+                        "speaker": "Ulrich Timme Kragh",
+                        "title": "Temporal Consciousness in Sanskrit Aesthetic Theory"
+                    }
+                ]
+            },
+            {
+                "room": "Room 16",
+                "title": "Manuscriptology",
+                "theme": "पाण्डुलिपिविज्ञानम्",
+                "chairperson": "Prof. Prasad Prakash Joshi",
+                "presentations": [
+                    {
+                        "speaker": "Snehlata Upadhyay",
+                        "title": "Manuscripts And Rare Book Preservation / Conservation In Libraries"
+                    },
+                    {
+                        "speaker": "Jayakumar Lalitha",
+                        "title": "Strategies For Reserving Our Old Tradition (Palm Leaf Manuscripts)"
+                    },
+                    {
+                        "speaker": "Madhav Prasad Lamichhane",
+                        "title": "Exploration Of Essential Manuscripts On Guhyakālī At The National Archives, Kathmandu"
+                    },
+                    {
+                        "speaker": "Muralikrishnan M V",
+                        "title": "Exploring The Rare Manuscript Collections Of Kerala With Special Reference To Panthal Collection"
+                    }
+                ]
+            },
+            {
+                "room": "Room 17",
+                "title": "Epic and poetry",
+                "theme": "काव्याध्ययनम्",
+                "chairperson": "Dr. Govind Gandhe",
+                "presentations": [
+                    {
+                        "speaker": "Laxmi Sharma",
+                        "title": "A Comparative Study Of Shakespeare's 'A Midsummer Night's Dream' And Kalidasa's 'Shakuntalam': Social Differences In Indian And Western Drama"
+                    },
+                    {
+                        "speaker": "Samed Seikh",
+                        "title": "मेघदूते मेघमार्गाणामाधुनिकसन्दर्भ भूगोलदृष्ट्याऽवस्थानिरूपणम्"
+                    },
+                    {
+                        "speaker": "Karuna Devi",
+                        "title": "अभिज्ञानशाकुन्तले भारतीयसंस्कृतिः"
+                    },
+                    {
+                        "speaker": "Debdutta Sanyal",
+                        "title": "Deconstructing the Rājarṣi: Poetry and Sovereignty in Bāṇabhaṭṭa's Harṣacarita and Kādambarī"
+                    },
+                    {
+                        "speaker": "Nava Kumar Handique",
+                        "title": "Daśakumāracarita of Daṇḍin: The People and the Society"
+                    }
+                ]
+            },
+            {
+                "room": "Room 18",
+                "title": "Vaisnavism and Saivism",
+                "theme": "वैष्णवमतं शैवमतं च",
+                "chairperson": "Dr. K. N. Swami",
+                "presentations": [
+                    {
+                        "speaker": "Ewa Debicka-Borek",
+                        "title": "Along the Nallamala Hills: The myths of Ahobilam according to the Śrīśailakhaṇḍa"
+                    },
+                    {
+                        "speaker": "Shikha Rajpurohit",
+                        "title": "Citkriyā Citikartṛtā: Agential Aspect Of Consciousness In Pratyabhijñā Philosophy"
+                    },
+                    {
+                        "speaker": "Sushma Jatoo",
+                        "title": "Kashmir Vishnuism: Text, Context And Beyond"
+                    },
+                    {
+                        "speaker": "Himanshu",
+                        "title": "What Does Abhinavagupta Mean By Non-Dual Āgama?"
+                    }
+                ]
+            }
+        ],
+        "18:00-19:30": [
+            {
+                "room": "Buddha Hall",
+                "title": "Cultural Programme",
+                "theme": "Dance Performance",
+                "chairperson": "",
+                "presentations": [
+                    {
+                        "speaker": "Dr. Ragasudha",
+                        "title": "Solo Dance Performance by Chidakash Kalalay, Kolkata"
+                    }
+                ]
+            }
+        ]
+    }
+}
