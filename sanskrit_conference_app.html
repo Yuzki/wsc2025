@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19th World Sanskrit Conference 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .controls {
+            background: #f8f9fa;
+            padding: 25px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .control-row {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: end;
+        }
+
+        .control-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .control-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #495057;
+        }
+
+        .control-group select,
+        .control-group input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .control-group select:focus,
+        .control-group input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .search-input {
+            position: relative;
+        }
+
+        .search-input::before {
+            content: "🔍";
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 16px;
+        }
+
+        .search-input input {
+            padding-left: 45px;
+        }
+
+        .timetable-container {
+            padding: 30px;
+            overflow-x: auto;
+        }
+
+        .timetable {
+            min-width: 1400px;
+            border-collapse: collapse;
+            width: 100%;
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .time-header {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+            font-weight: 700;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.1em;
+            width: 140px;
+            position: sticky;
+            left: 0;
+            z-index: 10;
+        }
+
+        .room-header {
+            background: linear-gradient(135deg, #fd79a8, #e84393);
+            color: white;
+            font-weight: 700;
+            padding: 15px;
+            text-align: center;
+            font-size: 0.9em;
+            min-width: 250px;
+            max-width: 280px;
+        }
+
+        .time-cell {
+            background: linear-gradient(135deg, #74b9ff, #0984e3);
+            color: white;
+            font-weight: 600;
+            padding: 20px 15px;
+            text-align: center;
+            vertical-align: top;
+            border: 1px solid #ddd;
+            width: 140px;
+            position: sticky;
+            left: 0;
+            z-index: 5;
+        }
+
+        .session-cell {
+            padding: 12px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+            min-width: 250px;
+            max-width: 280px;
+            position: relative;
+            background: white;
+            transition: background-color 0.3s ease;
+        }
+
+        .session-cell:hover {
+            background: #f8f9fa;
+        }
+
+        .session-cell.empty {
+            background: #f8f9fa;
+            opacity: 0.3;
+        }
+
+        .session-content {
+            height: 100%;
+        }
+
+        .session-title {
+            font-weight: 700;
+            color: #2d3436;
+            margin-bottom: 6px;
+            font-size: 0.9em;
+            line-height: 1.2;
+        }
+
+        .session-theme {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 3px 6px;
+            border-radius: 10px;
+            font-size: 0.75em;
+            margin-bottom: 6px;
+            display: inline-block;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .chairperson {
+            color: #28a745;
+            font-size: 0.8em;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .presentations {
+            font-size: 0.75em;
+        }
+
+        .presentation {
+            margin-bottom: 4px;
+            padding: 4px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            border-left: 2px solid #fd79a8;
+        }
+
+        .speaker {
+            font-weight: 600;
+            color: #2d3436;
+            margin-bottom: 1px;
+            font-size: 0.9em;
+        }
+
+        .title {
+            color: #636e72;
+            line-height: 1.1;
+        }
+
+        .presentation-count {
+            background: #667eea;
+            color: white;
+            font-size: 0.7em;
+            padding: 2px 5px;
+            border-radius: 8px;
+            position: absolute;
+            top: 6px;
+            right: 6px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 60px;
+            color: #6c757d;
+        }
+
+        @media (max-width: 768px) {
+            .control-row {
+                flex-direction: column;
+            }
+            
+            .timetable-container {
+                padding: 15px;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .room-header,
+            .session-cell {
+                min-width: 200px;
+                max-width: 220px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🕉️ 19th World Sanskrit Conference 2025</h1>
+            <p>विश्वसंस्कृतसम्मेलनम् | Kathmandu, Nepal | June 26-30, 2025</p>
+        </div>
+
+        <div class="controls">
+            <div class="control-row">
+                <div class="control-group">
+                    <label for="dateFilter">📅 Select Date</label>
+                    <select id="dateFilter">
+                        <option value="27">June 27 (Friday) - Main Sessions</option>
+                        <option value="26">June 26 (Thursday) - Inauguration</option>
+                        <option value="28">June 28 (Saturday) - Special Panels</option>
+                        <option value="29">June 29 (Sunday) - Special Lectures</option>
+                        <option value="30">June 30 (Monday) - Valedictory</option>
+                    </select>
+                </div>
+
+                <div class="control-group search-input">
+                    <label for="searchInput">🔍 Search (Speaker, Title, Theme)</label>
+                    <input type="text" id="searchInput" placeholder="Enter search keywords...">
+                </div>
+            </div>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number" id="totalSessions">0</div>
+                    <div class="stat-label">Total Sessions</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="totalPresentations">0</div>
+                    <div class="stat-label">Total Presentations</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number" id="currentDate">27</div>
+                    <div class="stat-label">Current Date</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="timetable-container" id="timetableContainer">
+            <div class="no-data" id="noData" style="display: none;">
+                <h3>📚 Loading data...</h3>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Complete program data
+        const programData = {
+            "26": {
+                "14:00-19:30": [
+                    {
+                        room: "Nepal Academy Hall",
+                        title: "Inauguration & Cultural Programme",
+                        theme: "Opening Ceremony",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Welcome Tea", title: "14:00—14:30 Welcome Tea" },
+                            { speaker: "Inauguration", title: "14:30—17:30 Inauguration Ceremony" },
+                            { speaker: "Cultural Programme", title: "17:30—19:30 Cultural Programme" },
+                            { speaker: "Maṅgalācaraṇa Performance", title: "Traditional Opening Performance" },
+                            { speaker: "Dakshinottaram", title: "Classical Dance Performance" },
+                            { speaker: "Vid. Rohini Prabhath & Vid. Medhavini", title: "A Confluence Of Kathak And Bharatanrityam" },
+                            { speaker: "Dr. Padmaja Venkatesh Suresh", title: "Thematic Bharatanatyam Dance Performance 'Shivaya Namaha'" },
+                            { speaker: "Priyamvada, Varanasi", title: "Solo Performance" },
+                            { speaker: "Welcome Dinner", title: "19:15 onwards Welcome Dinner" }
+                        ]
+                    }
+                ]
+            },
+            "27": {
+                "08:30-10:00": [
+                    {
+                        room: "Buddha Hall",
+                        title: "Keynote Speeches",
+                        theme: "Opening Keynotes",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Prof. Mei Yang", title: "Keynote Speech on Sanskrit Studies" },
+                            { speaker: "Prof. Sthaneshwar Timalsina", title: "Philosophy and Sanskrit Tradition" },
+                            { speaker: "Prof. McComas Taylor", title: "Sanskrit Literature and Cultural Heritage" },
+                            { speaker: "Prof. Madhav Prasad Pokhrel", title: "Sanskrit in Contemporary Context" }
+                        ]
+                    }
+                ],
+                "10:00-11:30": [
+                    {
+                        room: "Room 01",
+                        title: "Atharvaveda Special Panel",
+                        theme: "Vedic Studies",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Kristen de Joseph", title: "The Poetic Construction Of Authority In The Atharvavedic Rohita Hymns" },
+                            { speaker: "Carmen Spiers", title: "Ritual And Dharma In Atharvavedic Hymns" },
+                            { speaker: "Alessandro Giudice", title: "Trial By Fire In The Śaunaka Atharvaveda-SaṃHitā" },
+                            { speaker: "Robert Leach", title: "What's Love Got To Do With It? Some Thoughts On Gāndharva Marriage" },
+                            { speaker: "Marina Benedetti & Beatrice Grieco", title: "A Syntactic Collocation In The Atharvaveda" },
+                            { speaker: "Shuhei Yamada", title: "Phrases Of The Brāhmaṇ: A Style In The Prose Of The Atharvaveda" }
+                        ]
+                    },
+                    {
+                        room: "Room 02",
+                        title: "Philosophy and Ontology",
+                        theme: "Philosophical Studies",
+                        chairperson: "Prof. Satyam Kumari",
+                        presentations: [
+                            { speaker: "Nachiketa Sanjaykumar Brahmbhatt", title: "अद्वैतवेदान्तरीत्या चैतन्यस्त्य स्त्वप्रकार्त्वलक्षणमीमाांसा" },
+                            { speaker: "Gaurapriya Dash", title: "अचचन्त्यभेदाभेददर्शने जैवानुर्ीलनम्" },
+                            { speaker: "Gour Prasad Panda", title: "औपननषदमभयशक्षणम् - Social, Psychological and Philosophical Study" },
+                            { speaker: "Kallanikadu Sankaran Namboodiri", title: "ब्रह्मसूराणाां प्रामाण्यननणशयप्रकारः" },
+                            { speaker: "Ashvinee Kumar", title: "गूढार्शतत्त्वालोके प्रमाणववचारः" }
+                        ]
+                    },
+                    {
+                        room: "Room 03",
+                        title: "Philosophy and Ontology",
+                        theme: "Comparative Philosophy",
+                        chairperson: "Prof. Kamal Kishore Mishra",
+                        presentations: [
+                            { speaker: "Shashank Shivaram Bhat", title: "Comparative Study Of Categories: Aristotle And Vaisheshika Shastra" },
+                            { speaker: "Bipin Kumar Jha", title: "A Comparison Of The Bhagavadgītā And Aśvaghoṣa's Buddhacaritam's Ethics" },
+                            { speaker: "Chitresh Soni", title: "The Refutation Of Nature Of Means Of Valid Knowledge In Buddhist Epistemology" },
+                            { speaker: "Devalina Saikia", title: "The Knowledge Of Similarities And Dissimilarities Among Categories" },
+                            { speaker: "Shakuntala Gawde", title: "Decoding Terms 'Vidyā' And 'Avidyā' In Iśāvāsyopaniṣad" }
+                        ]
+                    },
+                    {
+                        room: "Room 04",
+                        title: "Sanskrit Grammar",
+                        theme: "Vyakarana Studies",
+                        chairperson: "Prof. Brajbhushan Ojha",
+                        presentations: [
+                            { speaker: "Mounika Bolla", title: "र्ब्दर्ास्त्रीयशलङ्गववचारः - Grammatical Gender Studies" },
+                            { speaker: "Shreenathdhar Dwivedi", title: "महाभाष्ये वर्णशतानाां वणशदोषाणाां प्रानतर्ाख्यदृष्ट्या समीक्षणम्" },
+                            { speaker: "Vaithi Subramanian N", title: "र्ाकटायनव्याकरणे तद्चधताय समासाय च - Śākaṭāyana Grammar Studies" },
+                            { speaker: "Kartik Bhagwat", title: "व्याकरणमहाभाष्यस्त्र्प्रसङ्गैः समाजसमीक्षा - Social Analysis through Grammar" },
+                            { speaker: "Malhar Kulkarni", title: "Influence Of The Kāśikāvṛtti On The Text Of The Aṣtādhyāyī" }
+                        ]
+                    },
+                    {
+                        room: "Room 05",
+                        title: "Sanskrit Grammar",
+                        theme: "Grammatical Theory",
+                        chairperson: "Prof. Brajbhusahan Ojha",
+                        presentations: [
+                            { speaker: "Manji Bhadra", title: "Meaning Of Technical Terms: Through The Lens Of Sanskrit Theoreticians" },
+                            { speaker: "Sowmya Krishnapur", title: "Was Kartrabhiprāye Kriyāphale Practically Observed In Classical Sanskrit Texts?" },
+                            { speaker: "Umamaheshwara N", title: "भाषाभूषणां वाचोयुजक्तः - Language Ornamentation Studies" },
+                            { speaker: "Walvekar Manish Rajan", title: "Textual Variants And Transcription Challenges In Pāṇini's Aṣtādhyāyī" },
+                            { speaker: "Shikha Chandravanshi", title: "ढुजण्ढकायाां स्त्रीप्रत्यय ववमर्शः - Feminine Suffix Analysis" },
+                            { speaker: "Shruti Kanitkar", title: "The Śābdabodha Of Cognitive Maze" }
+                        ]
+                    },
+                    {
+                        room: "Room 06",
+                        title: "Sanskrit Pedagogy",
+                        theme: "Education Methods",
+                        chairperson: "Prof. Y. S. Ramesh",
+                        presentations: [
+                            { speaker: "Devdatta Vishwanath Sarode", title: "सांस्कृतर्ास्त्राणाां शक्षणाचधगमसमस्यानिवारणाय तन्रयुक्तीनामुपादेयता" },
+                            { speaker: "Manish Jugran", title: "भारतीयशक्षणववधीनाां समीक्षणम् - Review of Indian Teaching Methods" },
+                            { speaker: "Shakti Sharan Sharma", title: "सांस्कृतवाङ्मये शक्षासूरम् - Educational Principles in Sanskrit Literature" },
+                            { speaker: "Vijay Kumar Dadhich", title: "The Culture Of Knowledge Expansion And Indian Knowledge System" },
+                            { speaker: "Nandadulal Mandal", title: "प्राचीनावाचीनर्ास्रेषु ननदहतववद्यास्र्ानननरूपणम्" }
+                        ]
+                    },
+                    {
+                        room: "Room 07",
+                        title: "Sanskrit Pedagogy",
+                        theme: "Teaching Innovations",
+                        chairperson: "Prof. Lok Manya Mishra",
+                        presentations: [
+                            { speaker: "Chakradhar Meher", title: "Challenges And Opportunities In The Contemporary Scenario Of Sanskrit Pedagogy" },
+                            { speaker: "Gaddam Surya Prasad", title: "Making Sanskrit Aspirational: A Study On NEP 2020" },
+                            { speaker: "Anoop Kumar Pandey", title: "भारतीयशक्षापद्धत्याः पाठ्यचयाशयाश्च स्वरूपम् - Indian Education System Structure" },
+                            { speaker: "Bhuvanagiri Venkata Lakshmi Narayana", title: "सांस्कृतवाङ्मये मनसः वववेचनम् - Mind Analysis in Sanskrit Literature" },
+                            { speaker: "Akhilesh Kumar Basediya", title: "बालमनोववज्ञानस्य ववशष्टे सांदभे पांचकोर्शसद्धान्त - Child Psychology Theory" }
+                        ]
+                    },
+                    {
+                        room: "Room 08",
+                        title: "Vedic Studies",
+                        theme: "Vedic Literature",
+                        chairperson: "Dr. D. Dayanath",
+                        presentations: [
+                            { speaker: "Dayanath Devanathan", title: "ववज्ञानमयो वेदः - Scientific Aspects of Vedas" },
+                            { speaker: "Govind Paudel", title: "ऊहः खल्ववप - Logical Analysis" },
+                            { speaker: "Ravuri Gayathri Murali Krishna", title: "वैददकवाङ्मये स्वप्नववश्लेषणमनोववज्ञानम् - Dream Analysis in Vedic Literature" },
+                            { speaker: "Mr. Janardan Bhoi", title: "Discourse On Infinite Real Bliss Depicted In The Upanishadic Texts" },
+                            { speaker: "Adarsh Vinayak Bhat", title: "रैस्त्वयशववज्ञानम् - Geometric Science" }
+                        ]
+                    },
+                    {
+                        room: "Room 09",
+                        title: "Poetry, Drama and Aesthetics",
+                        theme: "Literary Studies",
+                        chairperson: "Prof. Rajnish Kumar Mishra",
+                        presentations: [
+                            { speaker: "Chhoti Bai Meena", title: "बुद्धचररते रामायणववषयवस्तुसादृश्यम् - Similarities in Buddhist and Ramayana Literature" },
+                            { speaker: "Deepak Raj P K", title: "The Concept Of Rasa In Natyasastra: A Philosophical Analysis" },
+                            { speaker: "Shyam Babu", title: "मांखकालीना काव्यपरीक्षागोष्ठी - Medieval Poetry Examination Councils" },
+                            { speaker: "Swarga Kumar Mishra", title: "ऋतुसांहारे वेर्ववज्ञानम् - Dress Science in Ritusamhara" },
+                            { speaker: "Vipasha Jain", title: "गद्यचचन्तामणौ अलङ्कारप्रयोगस्य वैशष्ट्यम् - Rhetorical Features in Gadyachintamani" }
+                        ]
+                    },
+                    {
+                        room: "Room 10",
+                        title: "Jyotisha (Astronomy)",
+                        theme: "Astronomical Studies",
+                        chairperson: "Prof. Hansdhar Jha",
+                        presentations: [
+                            { speaker: "Prasada Bhat", title: "अर्शबहुलां बतहज्जातकम् - Abundant Meaning in External Horoscopy" },
+                            { speaker: "Anand Prakash Pathak", title: "अन्तररक्षानुसन्धाने ज्योनतषर्ास्रस्योपादेयता - Utility of Astronomy in Space Research" },
+                            { speaker: "Ramananda Bhat N.", title: "भास्करोक्तसूक्ष्मनक्षरानयनिमस्य ववमर्शः - Analysis of Bhaskara's Subtle Calculations" },
+                            { speaker: "Ekta Sharma", title: "The Chakravala Method Of Bhaskaracharya For Solving Equations" },
+                            { speaker: "Ratan", title: "ग्रहगर्णतस्य अद्ववतीयशसद्धान्तः - Unique Principles of Planetary Calculations" }
+                        ]
+                    },
+                    {
+                        room: "Room 11",
+                        title: "Modern Sanskrit Literature",
+                        theme: "Contemporary Writings",
+                        chairperson: "Prof. Mukund Prasad Lamichhane",
+                        presentations: [
+                            { speaker: "Kirana Shankar Bhat", title: "एच्. वव. नागराजराववयशस्य र्तककाव्येषु जीवनमूल्यानन - Life Values in H.V. Nagaraja Rao's Century Poems" },
+                            { speaker: "Mohini Arora", title: "आधुننकयुगे सांस्कृतना्यर्ास्रे नारीणामवदानम् - Women's Contribution in Modern Sanskrit Drama" },
+                            { speaker: "Ajay Kumar Mishra", title: "A Critical Remark On Anti Establishment Psycho-Political Issues" },
+                            { speaker: "Ayush Dixit", title: "अलां भूषणम् उत भावः - Ornament or Emotion" },
+                            { speaker: "Kamalesh", title: "भारतीयज्ञानपरम्परायाः वैशष्टयम् - Uniqueness of Indian Knowledge Tradition" },
+                            { speaker: "Raj Kumar Mishra", title: "आधुननकां सांस्कृतसादहत्यम् - Modern Sanskrit Literature" }
+                        ]
+                    },
+                    {
+                        room: "Room 12",
+                        title: "Yoga and Ayurveda",
+                        theme: "Health Sciences",
+                        chairperson: "Sadhvi Devpriya",
+                        presentations: [
+                            { speaker: "Palash Santra", title: "Deconstructing Menstrual Misconceptions: An Ayurvedic Perspective" },
+                            { speaker: "Pani Prasad V", title: "भारतीयज्ञानपरम्परागतशसद्धौषधपद्धत्याां भोज्यपदार्ाशनामौषधतत्त्वववचारः" },
+                            { speaker: "Rashmitha", title: "Nārī-Svāsthya-Vimarśah: A Scientific And Textual Approach Of Yoga" },
+                            { speaker: "Dave Nehal Narendrakumar", title: "Analytical Study Of Attaining Enjoyment And Liberation" },
+                            { speaker: "Jyoti Gokavi", title: "Yoga Therapy - Gateway To The Holistic Health" }
+                        ]
+                    },
+                    {
+                        room: "Room 13",
+                        title: "Jaina Studies",
+                        theme: "Jain Philosophy",
+                        chairperson: "Jayendra Soni",
+                        presentations: [
+                            { speaker: "Shruti Jain", title: "Anuprekshas And Their Significance In The Path Of Salvation" },
+                            { speaker: "Achyut Kant Jain", title: "Unlocking The Power Of Causality: A Practical Guide To Applying Ekānta" },
+                            { speaker: "Saritha TP", title: "Syadvada In Jainism - Its Logicality In Conceptualizing Theories" },
+                            { speaker: "Chakote Rohit Mahavir", title: "Blending Narratives: Interplay Of Two Jain Rāmāyaṇa Traditions" },
+                            { speaker: "Anchit Jain", title: "The Issue Of Monastic Dwelling In Jain Texts Of Conduct" }
+                        ]
+                    },
+                    {
+                        room: "Room 14",
+                        title: "Linguistics",
+                        theme: "Language Studies",
+                        chairperson: "Dr. Sucharita Tajane",
+                        presentations: [
+                            { speaker: "Preeti Shukla & Devanand Shukla", title: "KariṣYe Vacanaṃ Tava – A Discourse Pragmatic Analysis" },
+                            { speaker: "Aarti Meena", title: "ना्यर्ास्रे प्रयुक्ता: पाररभावषकाः र्ब्दाः - Technical Terms in Drama Theory" },
+                            { speaker: "Anustup Bhattacharyya", title: "The Phonology Of The Consonant Clusters In The ṚGveda" },
+                            { speaker: "Avnish Kumar", title: "भततशहररदृष्ट्या सावशभौमकारकव्याकरणस्य ननमाशणम् - Universal Grammar Construction" },
+                            { speaker: "Jyoti", title: "Deconstructing The Narrative: A Hetu-Śāstra Critique" }
+                        ]
+                    },
+                    {
+                        room: "Room 15",
+                        title: "Scientific Literature",
+                        theme: "Science in Sanskrit",
+                        chairperson: "Prof. J. S. R. Prasad",
+                        presentations: [
+                            { speaker: "Maheswar Macharla Rao", title: "धरण्यन्तस्रोतसामनुर्ीलनम् - Study of Underground Water Sources" },
+                            { speaker: "Mahesh Jha", title: "सांस्कृतवाङ्मये भूगभशववज्ञानम् - Geology in Sanskrit Literature" },
+                            { speaker: "Annapurna S", title: "Preparation Of Mercury From The Text Ānandakanda" },
+                            { speaker: "Ashim Chakraborty", title: "Indian Irrigation System From Vedic To Recent Era: A Study" },
+                            { speaker: "Radhika PR", title: "The Scientific Analysis Of Aitareyopanishad" }
+                        ]
+                    },
+                    {
+                        room: "Room 16",
+                        title: "Tantra Studies",
+                        theme: "Tantric Literature",
+                        chairperson: "Prof. Shreenand Bapat",
+                        presentations: [
+                            { speaker: "Jitendra Kumar Rayaguru", title: "तन्रपरम्परा र्जक्तवादश्च : उत्कलस्य धाशमशक -साांस्कतनतकपरम्परयोः प्रभावः" },
+                            { speaker: "Praveen Mani Tripathi", title: "तन्रागमदर्शनोक्त -पनतपर्ु पार्े नत पदार्शरयाणाां र्ैक्षक्षकोपादेयता" },
+                            { speaker: "Ov Shibu", title: "भारतीयववज्ञानपरम्परायाां तन्रर्ास्रस्य योगदानम् - Tantra's Contribution to Indian Science" },
+                            { speaker: "Prasanth B.", title: "Evolution Of Bali-Ritual In Śakti Worship-Traditions Of Kerala" },
+                            { speaker: "Chirashree Mukherjee", title: "The Transformative Guru: Tantric Insights Into Siddhayoga Practice" }
+                        ]
+                    },
+                    {
+                        room: "Room 17",
+                        title: "Sanskrit & Computational Linguistics",
+                        theme: "Digital Humanities",
+                        chairperson: "Prof. Shivani V.",
+                        presentations: [
+                            { speaker: "Ganesh Prasad K.S.", title: "अमरकोर्तन्राांर्ः, कोर्व्याख्यानयोः व्याकरणर्ास्रीयववचारश्च - Amara Kosha Website" },
+                            { speaker: "Sumit Saxena", title: "Usefulness Of NLP And Application Of Digital Tools In Computational Sanskrit" },
+                            { speaker: "Madan Mohan Jha", title: "सांस्कृतां एण्रॉयितन्राांर्श्च - Sanskrit and Android Technology" },
+                            { speaker: "Anshul Kumar", title: "Content Creation Through AI Tools: A Question Of Quality" },
+                            { speaker: "Shankararama Ramakrishnan Sharma", title: "Mispronunciation Detection For Sanskrit Language Using CTC" }
+                        ]
+                    },
+                    {
+                        room: "Room 18",
+                        title: "Sanskrit and Regional Languages",
+                        theme: "Language Interactions",
+                        chairperson: "Prof. Shishir Pandey",
+                        presentations: [
+                            { speaker: "Amrita Kaur", title: "शसक्खधमशस्य गुरुग्रन्र्सादहब-मध्ये सांस्कृतोपननषद्दर्शनानाां समावेर्ः" },
+                            { speaker: "Hanglem Sanayaima Singh", title: "Relationship Between Sanskrit And Manipuri" },
+                            { speaker: "Koushik Malakar", title: "Sanskrit And Bengali Literature: A Deep Literary Interconnection" },
+                            { speaker: "Dayananda Panigrahi", title: "जगन्नार्दासकतत-उत्कलीयभागवते ब्रह्मतत्त्वववमर्शः" },
+                            { speaker: "Vinay Kumar Shukla", title: "प्रादेर्कभाषाणाां ववकासे सांस्कृतभाषायाः भूशमका - Role of Sanskrit in Regional Languages" }
+                        ]
+                    },
+                    {
+                        room: "Room 19",
+                        title: "Sanskrit and Classical Languages",
+                        theme: "Comparative Linguistics",
+                        chairperson: "Prof. Sadashiv Kumar Dwivedi",
+                        presentations: [
+                            { speaker: "Aanandavardhan Nyaupane", title: "On The Greek/Latin Translations Of Sanskrit Literature" },
+                            { speaker: "Chandana Biswal", title: "र्ीजगन्नार्सांस्कतनतः उत्कलीयभाषासादहत्यञ्च - Jagannatha Culture and Odia Literature" },
+                            { speaker: "Prabhat Kumar", title: "Study Of Name Translation Strategies In Valmiki Ramayana's Chinese Translation" },
+                            { speaker: "Sujeet Kumar Pandey", title: "Role Of Pali And Kashmiri Language In Indian Knowledge Systems" }
+                        ]
+                    }
+                ],
+                "11:45-13:15": [
+                    {
+                        room: "Room 01",
+                        title: "Atharvaveda Panel (Continued)",
+                        theme: "Vedic Grammar",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Massimo Vai", title: "Some Observations On The Left Periphery Of The Vedic Sentence" },
+                            { speaker: "Nicoletta Puddu", title: "Reflexive Constructions In The Atharvaveda" },
+                            { speaker: "Althea Sovani", title: "Four Types, One Type: Non-Subordinated Infinitives In The Atharvaveda" },
+                            { speaker: "Davide Mocci & Tiziana Pontillo", title: "The Agent And Patient Of -́Tave/Tavái -Infinitives" },
+                            { speaker: "Oliver Hellwig", title: "Discontinuous Linearization Of Vedic Nominal Expressions" }
+                        ]
+                    },
+                    {
+                        room: "Room 02",
+                        title: "Philosophy and Ontology (Continued)",
+                        theme: "Vedanta Studies",
+                        chairperson: "Prof. Sukanta Kumar Senapati",
+                        presentations: [
+                            { speaker: "Gowtham Ragothaman", title: "आचार्श-आनन्दतीर्शस्य तत्त्ववादे अष्टाङ्गयोगः - Eight-limbed Yoga in Anandatirtha's Philosophy" },
+                            { speaker: "Rohan Achyut Kulkarni", title: "Analysis Of The Word Vedānta" },
+                            { speaker: "Rushik Maheshbhai Borad", title: "Pramāṇa Vyavasthā In Vāllabha Saṃpradāya" },
+                            { speaker: "Madhura Pramod Kirpekar", title: "The Study Of Advait Vedanta And Aesthetical Thought" },
+                            { speaker: "Pratibha R", title: "भगवद्गीताव्याख्यासु गूढार्शदीवपकायाः वैशष्ट्यम् - Uniqueness of Gudarthadipika Commentary" }
+                        ]
+                    },
+                    {
+                        room: "Room 17",
+                        title: "Sanskrit & Computational Linguistics (Continued)",
+                        theme: "AI and Sanskrit",
+                        chairperson: "Shankararama Ramakrishnan Sharma",
+                        presentations: [
+                            { speaker: "Ankita Bhargawa", title: "Developing A Computational Ontology For Vedāntasāra" },
+                            { speaker: "Yuzuki Tsukagoshi", title: "Towards Accent-Aware Vedic Sanskrit Optical Character Recognition" },
+                            { speaker: "Shankararama Sharma", title: "Optimizing Sanskrit Antyakshari With Directed Graphs" },
+                            { speaker: "Sunita Barman", title: "How To Focus On Happiness And Spirituality" },
+                            { speaker: "Tushar Gandhi", title: "Sanskrit And Large Language Models: Present Status And Future" }
+                        ]
+                    }
+                ],
+                "14:45-17:00": [
+                    {
+                        room: "Buddha Hall",
+                        title: "Debate of the Great Panditas",
+                        theme: "Shastrartha - Traditional Scholarly Debate",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Scholarly Debate", title: "Shastrartha - Traditional Debate Among Great Scholars" }
+                        ]
+                    }
+                ],
+                "18:00-19:30": [
+                    {
+                        room: "Buddha Hall",
+                        title: "Cultural Programme",
+                        theme: "Evening Cultural Performance",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Dr. Ragasudha", title: "Solo Dance Performance - Chidakash Kalalay, Kolkata" }
+                        ]
+                    }
+                ]
+            },
+            "28": {
+                "08:30-10:00": [
+                    {
+                        room: "Buddha Hall",
+                        title: "Medical Therapy and Sanskrit Special Panel",
+                        theme: "Healthcare and Sanskrit",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Muraleemadhavan Puvathur Chelichery", title: "Medical Therapy Research in Sanskrit Texts" },
+                            { speaker: "Geetha Muraleemadhavan", title: "Traditional Medicine and Sanskrit Literature" },
+                            { speaker: "Sivakaran Thottathil Subrahmanyan", title: "Sanskrit Medical Literature Studies" },
+                            { speaker: "Manjari Sivakaran", title: "Ayurvedic Principles in Sanskrit Texts" },
+                            { speaker: "Unnikrishnan Kannadi", title: "Medical Therapy Applications from Sanskrit Sources" }
+                        ]
+                    },
+                    {
+                        room: "Pratik Hall",
+                        title: "Digital Matrix Mandala Special Panel",
+                        theme: "Digital Education",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Nepal Ananda", title: "Digital Matrix Mandala Framework for Future Learning" },
+                            { speaker: "Shinzo Kobayashi", title: "Knowledge Transformation Pedagogy in Digital Age" },
+                            { speaker: "Seiichiro Aoki", title: "Digital Learning Methodologies and Applications" },
+                            { speaker: "Mami Umemoto", title: "Future of Educational Technology in Sanskrit Studies" }
+                        ]
+                    }
+                ],
+                "10:15-12:15": [
+                    {
+                        room: "Buddha Hall",
+                        title: "Akshara Purushottama Darshanam Special Panel",
+                        theme: "Swaminarayan Philosophy",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Bhadreshdas Swami Mahāmahopādhyāya", title: "Akshara Purushottama Philosophical Framework" },
+                            { speaker: "Aksharananddas Swami", title: "Philosophical Discourse on Akshara Brahman" },
+                            { speaker: "Jnantruptadas Sadhu", title: "Traditional Teachings and Modern Applications" },
+                            { speaker: "Atmatruptdas Sadhu", title: "Spiritual Practices in Akshara Purushottama Darshan" },
+                            { speaker: "Brahmamanandas Sadhu", title: "Devotional Philosophy and Practice" },
+                            { speaker: "Tarun Dhola", title: "Contemporary Relevance of Ancient Wisdom" }
+                        ]
+                    }
+                ],
+                "11:00-13:15": [
+                    {
+                        room: "Pratik Hall",
+                        title: "Debate of the Great Women Pandits",
+                        theme: "Vākyārtha Sabhā (Women Scholars)",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Women Scholars Debate", title: "Vākyārtha Sabhā - Academic Discussion by Women Pandits" }
+                        ]
+                    }
+                ],
+                "11:45-13:15": [
+                    {
+                        room: "Room 01",
+                        title: "Vernacular Tantra Special Panel",
+                        theme: "Tantric Texts and Archives",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Andrea Acri", title: "Vernacular Tantra Studies and Regional Traditions" },
+                            { speaker: "Lubomír Ondračka", title: "Tantric Texts and Manuscript Archives" },
+                            { speaker: "Maciej Karasinski", title: "Regional Tantric Traditions and Practices" },
+                            { speaker: "SAS Sarma", title: "Manuscript Traditions in Tantric Literature" },
+                            { speaker: "Amol N. Bankar", title: "Textual Analysis of Vernacular Tantric Works" },
+                            { speaker: "Judit Törzsök", title: "Tantric Literature: Text and Context" }
+                        ]
+                    }
+                ],
+                "15:00-17:00": [
+                    {
+                        room: "Buddha Hall",
+                        title: "Book Release and Felicitations",
+                        theme: "Publications and Awards",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Book Release Ceremony", title: "New Sanskrit Publications and Research Works" },
+                            { speaker: "Felicitation Ceremony", title: "Recognition and Awards for Sanskrit Scholars" }
+                        ]
+                    },
+                    {
+                        room: "Pratik Hall",
+                        title: "Admission Camp & Publication Display",
+                        theme: "Educational Outreach",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Mukta Swadhyaya Peetham", title: "Admission Camp and Student Counseling" },
+                            { speaker: "CSU, New Delhi", title: "Publication Display and Information Session" }
+                        ]
+                    }
+                ],
+                "16:30-18:00": [
+                    {
+                        room: "Room 11",
+                        title: "Indian Alchemy: A New Perspective Special Panel",
+                        theme: "Alchemical Studies",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Dagmar Wujastyk", title: "Indian Alchemical Traditions and Practices" },
+                            { speaker: "Dominik Wujastyk", title: "Historical Perspectives on Indian Alchemy" },
+                            { speaker: "Patricia Sauthoff", title: "Textual Analysis of Alchemical Works" },
+                            { speaker: "Priyanka Chorge", title: "Modern Applications of Ancient Alchemical Knowledge" },
+                            { speaker: "Keith Cantú", title: "Cross-Cultural Studies in Alchemy" },
+                            { speaker: "James Mallinson", title: "Yoga and Alchemy: Interconnected Traditions" }
+                        ]
+                    }
+                ],
+                "17:30-19:30": [
+                    {
+                        room: "Buddha Hall",
+                        title: "Cultural Programme",
+                        theme: "Classical Arts Performance",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Yatiraj Adhikari and others", title: "Shastriya Gayan and Vadan - Classical Music Performance" },
+                            { speaker: "Natya Anusandhan Kendra", title: "Research Center for Dance and Drama Presentation" },
+                            { speaker: "Central Sanskrit University, Bhopal", title: "Traditional Arts and Cultural Heritage Showcase" }
+                        ]
+                    }
+                ]
+            },
+            "29": {
+                "08:30-10:00": [
+                    {
+                        room: "Buddha Hall",
+                        title: "Special Lectures",
+                        theme: "Distinguished Speakers Series",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Prof. Gulab Kotari", title: "Special Lecture on Sanskrit Studies and Research" },
+                            { speaker: "Dr. Bhagyesh Jha", title: "Contemporary Sanskrit Research Methodologies" },
+                            { speaker: "Prof. Amba Kulkarni", title: "Computational Sanskrit: Applications and Future" },
+                            { speaker: "Prof. Luigi Miraglia", title: "International Perspectives on Sanskrit Education" },
+                            { speaker: "Prof. Murali Manohar Pathak", title: "Traditional Knowledge Systems and Modern Relevance" },
+                            { speaker: "Prof. Prasad Joshi", title: "Sanskrit Pedagogy: Innovations and Challenges" }
+                        ]
+                    },
+                    {
+                        room: "Pratik Hall",
+                        title: "Special Lectures",
+                        theme: "Scholarly Presentations",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Prof. Santa Datta De", title: "Sanskrit Literature Studies and Cultural Heritage" },
+                            { speaker: "Prof. Krishna Macharya", title: "Philosophical Traditions in Sanskrit Thought" },
+                            { speaker: "Prof. Bill Mak", title: "Historical Astronomy in Sanskrit Texts" },
+                            { speaker: "Prof. McComas Taylor", title: "Sanskrit Narrative Literature and Storytelling" },
+                            { speaker: "Prof. K. K. Geethakumary", title: "Women in Sanskrit Tradition and Literature" }
+                        ]
+                    }
+                ],
+                "10:00-11:15": [
+                    {
+                        room: "Room 19",
+                        title: "Stree Shakti Special Panel",
+                        theme: "Women's Empowerment - शक्तिरूपेण संस्थिता",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Rekha Mody", title: "Women's Empowerment Themes in Sanskrit Literature" },
+                            { speaker: "Kamal Kishor Mishra", title: "Female Deities and Divine Feminine Power in Texts" },
+                            { speaker: "Shivani V.", title: "Women Scholars and Teachers in Ancient India" },
+                            { speaker: "Preeti Shukla", title: "Contemporary Relevance of Women's Studies in Sanskrit" }
+                        ]
+                    }
+                ],
+                "11:00-13:30": [
+                    {
+                        room: "DAV Sushil Kedia Vishwa Bharati School",
+                        title: "Vice Chancellors Meet",
+                        theme: "Academic Leadership Conference",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Vice Chancellors Conference", title: "Academic Leadership Discussion and Strategic Planning for Sanskrit Education" }
+                        ]
+                    }
+                ],
+                "17:30-19:30": [
+                    {
+                        room: "Buddha Hall",
+                        title: "Cultural Programme",
+                        theme: "Traditional Folk Arts",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Nepal Cultural Group", title: "Prathistha Natak - Traditional Drama from Nepal" },
+                            { speaker: "Folk Artists", title: "Palagan - A Traditional Folk Ballad Form" },
+                            { speaker: "Regional Performers", title: "Cultural Presentations from Various Regions" }
+                        ]
+                    }
+                ]
+            },
+            "30": {
+                "09:00-11:00": [
+                    {
+                        room: "Nepal Academy Hall",
+                        title: "Valedictory Function",
+                        theme: "Conference Closing Ceremony",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Valedictory Ceremony", title: "Conference Closing Ceremony and Final Addresses" },
+                            { speaker: "Vote of Thanks", title: "Acknowledgments and Gratitude to Participants and Organizers" },
+                            { speaker: "Conference Summary", title: "Summary of Proceedings and Future Directions" }
+                        ]
+                    }
+                ],
+                "11:00-": [
+                    {
+                        room: "Nepal Academy Hall",
+                        title: "Farewell Lunch",
+                        theme: "Final Networking",
+                        chairperson: "",
+                        presentations: [
+                            { speaker: "Farewell Lunch", title: "Final Networking Session and Departure Preparations" }
+                        ]
+                    }
+                ]
+            }
+        };
+
+        let currentDate = "27";
+        let searchTerm = "";
+
+        function renderTimetable() {
+            const container = document.getElementById('timetableContainer');
+            const dayData = programData[currentDate];
+            
+            if (!dayData || Object.keys(dayData).length === 0) {
+                container.innerHTML = `
+                    <div class="no-data">
+                        <h3>📚 No data available for this date</h3>
+                        <p>Please select another date</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Get and sort time slots
+            const timeSlots = Object.keys(dayData).sort();
+            
+            // Get all rooms
+            const allRooms = new Set();
+            timeSlots.forEach(time => {
+                dayData[time].forEach(session => {
+                    allRooms.add(session.room);
+                });
+            });
+            const rooms = Array.from(allRooms).sort();
+
+            // Apply search filtering
+            const filteredData = {};
+            timeSlots.forEach(time => {
+                const filteredSessions = dayData[time].filter(session => {
+                    if (!searchTerm) return true;
+                    const searchLower = searchTerm.toLowerCase();
+                    return session.title.toLowerCase().includes(searchLower) ||
+                           session.theme.toLowerCase().includes(searchLower) ||
+                           session.chairperson.toLowerCase().includes(searchLower) ||
+                           session.presentations.some(p => 
+                               p.speaker.toLowerCase().includes(searchLower) ||
+                               p.title.toLowerCase().includes(searchLower)
+                           );
+                });
+                if (filteredSessions.length > 0) {
+                    filteredData[time] = filteredSessions;
+                }
+            });
+
+            if (Object.keys(filteredData).length === 0) {
+                container.innerHTML = `
+                    <div class="no-data">
+                        <h3>🔍 No search results found</h3>
+                        <p>Please try different search keywords</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Generate table header
+            let html = `
+                <table class="timetable">
+                    <thead>
+                        <tr>
+                            <th class="time-header">Time</th>
+                            ${rooms.map(room => `<th class="room-header">🏛️ ${room}</th>`).join('')}
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            // Generate rows for each time slot
+            Object.keys(filteredData).forEach(time => {
+                html += `<tr>`;
+                html += `<td class="time-cell">⏰ ${time}</td>`;
+                
+                rooms.forEach(room => {
+                    const session = filteredData[time].find(s => s.room === room);
+                    if (session) {
+                        html += `
+                            <td class="session-cell">
+                                <div class="session-content">
+                                    <div class="presentation-count">${session.presentations.length}</div>
+                                    <div class="session-title">${session.title}</div>
+                                    <div class="session-theme">${session.theme}</div>
+                                    ${session.chairperson ? `<div class="chairperson">👨‍🏫 ${session.chairperson}</div>` : ''}
+                                    <div class="presentations">
+                                        ${session.presentations.slice(0, 4).map(p => `
+                                            <div class="presentation">
+                                                <div class="speaker">👤 ${p.speaker}</div>
+                                                <div class="title">${p.title.length > 60 ? p.title.substring(0, 60) + '...' : p.title}</div>
+                                            </div>
+                                        `).join('')}
+                                        ${session.presentations.length > 4 ? `<div class="presentation">... +${session.presentations.length - 4} more</div>` : ''}
+                                    </div>
+                                </div>
+                            </td>
+                        `;
+                    } else {
+                        html += `<td class="session-cell empty"></td>`;
+                    }
+                });
+                
+                html += `</tr>`;
+            });
+
+            html += `</tbody></table>`;
+            container.innerHTML = html;
+        }
+
+        function updateStats() {
+            const dayData = programData[currentDate];
+            if (!dayData) {
+                document.getElementById('totalSessions').textContent = "0";
+                document.getElementById('totalPresentations').textContent = "0";
+                return;
+            }
+
+            let totalSessions = 0;
+            let totalPresentations = 0;
+
+            Object.values(dayData).forEach(timeSlot => {
+                totalSessions += timeSlot.length;
+                timeSlot.forEach(session => {
+                    totalPresentations += session.presentations.length;
+                });
+            });
+
+            document.getElementById('totalSessions').textContent = totalSessions;
+            document.getElementById('totalPresentations').textContent = totalPresentations;
+            document.getElementById('currentDate').textContent = `June ${currentDate}`;
+        }
+
+        function applyFilters() {
+            currentDate = document.getElementById('dateFilter').value;
+            searchTerm = document.getElementById('searchInput').value;
+            renderTimetable();
+            updateStats();
+        }
+
+        // Event listeners
+        document.getElementById('dateFilter').addEventListener('change', applyFilters);
+        document.getElementById('searchInput').addEventListener('input', applyFilters);
+
+        // Initial render
+        renderTimetable();
+        updateStats();
+    </script>
+</body>
+</html>
